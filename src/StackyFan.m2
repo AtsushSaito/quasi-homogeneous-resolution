@@ -1,8 +1,9 @@
 -- StackyFan.m2 ---------------------------------------------------------------------------------
--- Bergh's toric destackification, implemented verbatim from
+-- Bergh's toric destackification, implemented from
 --   D. Bergh, "Functorial destackification of tame stacks with abelian stabilisers",
 --   Compositio Math. 153 (2017) 1257-1315 = arXiv:1409.5713,
--- Definitions 2.6, 3.2, 3.5, 3.6, 3.8 and Algorithms A (A0-A6, p.14) and B (B0-B4, p.16).
+-- Definitions 2.6, 3.2, 3.5, 3.6, 3.8 and Algorithms A (A0-A6, p.14) and B (B0-B4, p.16),
+-- with the four open choices of step A2 exposed as switches.
 --
 -- The lattice N is free of rank n.  A stacky fan (Def 3.2) is then faithfully recorded by
 --   rays   : the primitive generator u_rho of each ray, in a fixed order (the order is part of
@@ -11,7 +12,7 @@
 --   maxCones, dist (Def 2.6, distinguished rays)
 --
 -- Nothing in this file mentions a field, a polynomial or a characteristic: it is a pure
--- integer program, exactly as the theory predicts (Bergh 3.5: "the stacky structure beta
+-- integer program (cf. Bergh 3.5: "the stacky structure beta
 -- plays no part in the definition of multiplicity").
 
 -- ---------------------------------------------------------------- small helpers

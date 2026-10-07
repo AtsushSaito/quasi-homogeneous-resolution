@@ -10,6 +10,6 @@ They are written by `src/certify.m2` (`M2 --script src/certify.m2 -- E8_p2`):
 | `<name>.fan.txt` | rays and maximal cones of `T` (input of `scripts/projectivity_exact.py`) |
 | `<name>.cofactors.txt` | for each smoothness claim, generators `h_i` and cofactors `g_i` with `sum g_i h_i = 1` (re-expanded by `scripts/verify_cofactors.py`) |
 
-The certificate asserts what is computed for one sample.  It uses the properness criterion for toric morphisms
+A certificate records the checks run on one sample.  It uses the properness criterion for toric morphisms
 (Cox-Little-Schenck, Thm 3.4.11) and no resolution theorem.  `verify_cofactors.py` checks that the identities hold; it does not
 check that the `h_i` generate the ideal that the certificate claims they do (see its docstring).

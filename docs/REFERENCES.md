@@ -84,8 +84,8 @@ Checking status, as of 2026-10-07:
 
 Cossart-Piltant (threefolds in positive characteristic), Lipman (surfaces), Hauser (survey), Kempf-Knudsen-Mumford-Saint-Donat
 (toroidal embeddings), Varchenko (Newton non-degeneracy in characteristic 0), Alper-Hall-Rydh and Liedtke-Martin-Matsumoto
-(linearisation of actions, `arXiv:1504.06467` and `arXiv:2102.01067`, both assuming an algebraically closed field):
-none of these is used in an argument of this repository, and I did not check the citations.
+(linearisation of actions, `arXiv:1504.06467` and `arXiv:2102.01067`, both assuming an algebraically closed field)
+appear in my working notes.  None is used in an argument of this repository, and I did not check the citations.
 
 ## Prior implementations
 

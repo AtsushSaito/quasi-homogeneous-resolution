@@ -1,24 +1,24 @@
 # qh-resolution
 
 Macaulay2 code, and a catalog of checked examples, for resolving isolated singularities of weighted-homogeneous
-(quasi-homogeneous) type in **positive characteristic** by one weighted blow-up followed by Bergh's destackification
+(quasi-homogeneous) type in positive characteristic by one weighted blow-up followed by Bergh's destackification
 of the resulting tame quotient stack.
 
-* `package/ToricDestackification.m2`: a Macaulay2 package for toric **stacky fans** and Bergh's destackification
+* `package/ToricDestackification.m2`: a Macaulay2 package for toric stacky fans and Bergh's destackification
   algorithm (Algorithms A and B of Bergh, Compositio 153 (2017)).  An implementation of a known algorithm, not a new one.
 * `src/`: research code that builds, for a given equation and weights, the explicit toric resolution of the weighted
   blow-up and compares it with the prediction coming from the stabiliser strata.
-* [`docs/CATALOG.md`](docs/CATALOG.md): **440 singularities** (rational double points in characteristics 2, 3, 5, 7,
-  Brieskorn-Pham and Arnold surfaces, simple elliptic ones, and hypersurfaces up to dimension 6), each with the input
-  needed to reproduce it, the expected result, and a statement of how well that result is supported.
+* [`docs/CATALOG.md`](docs/CATALOG.md): 440 singularities (rational double points in characteristics 2, 3, 5, 7,
+  Brieskorn-Pham and Arnold surfaces, simple elliptic ones, and hypersurfaces up to dimension 6), each with its input,
+  the expected result and an evidence class.
 * `tests/`: assertion-based tests, driven by the same catalog tables.  `sh tests/run_ci.sh` takes about 5 minutes.
 
-**Status.**  Version 0.1, written in September-October 2026, not peer reviewed.  **Nothing here is a new theorem**:
-the statement behind the code (statement M below) is, in substance, known; see [docs/MATH.md](docs/MATH.md) for what is
-cited, what I derived myself, and what is not claimed.  The code was written with the help of an AI assistant
-(see [Provenance](#provenance-use-of-ai)).
+Status.  Version 0.1, written in September-October 2026; a personal project, not part of any thesis.  Nothing here is
+a new theorem: the statement behind the code (statement M below) is known in substance.  [docs/MATH.md](docs/MATH.md)
+says what is cited, what I derived myself and what is not claimed.  The code was written with the help of an AI
+assistant (see [Provenance](#provenance-use-of-ai)).
 
-## The mathematics in four lines
+## Statement M and terms
 
 Let `k` be a field of characteristic `p >= 0`, `R` a finitely generated N-graded integral `k`-algebra with `R_0 = k`,
 `X = Spec R`, `v` its vertex.  Example: `R = k[x,y,z]/(z^2 + x^3 + y^5)` with weights `x:10, y:6, z:15` (degree 30).
@@ -46,7 +46,7 @@ below plays that role here), and Example 4.4.3 for Brieskorn-type equations.  Ho
 ## Requirements
 
 Macaulay2 (all results were produced with 1.26.06; no other version was tried) and Python 3 (standard library only, for
-the checkers).  Nothing else is needed.
+the checkers).
 
 ## Quick start
 
@@ -89,7 +89,7 @@ docs/       MATH.md, REFERENCES.md, CATALOG.md (generated), M2_NOTES.md, CLEANUP
             with internal labels and some outdated counts; read MATH.md first)
 ```
 
-Why two copies of the algorithm?  `src/StackyFan.m2` is the research version used to experiment with the open choices of
+Two copies of the algorithm.  `src/StackyFan.m2` is the research version, used to experiment with the open choices of
 step A2; `package/` is the version meant for reuse, with input validation and documentation.  The test
 `tests/package_equivalence.sh` runs both on 44 cones and compares the outputs.
 
@@ -97,10 +97,12 @@ step A2; `package/` is the version meant for reuse, with input validation and do
 
 | claim | support |
 |---|---|
-| 361 samples satisfy the hypothesis (characteristics 2, 3, 5, 7; dimensions 2 to 6) and get the verdict CONFIRM: the explicit toric resolution has smooth strict transform in every chart, the toric map is proper and an isomorphism off the origin.  For the 302 surfaces among them, the resolution graph also agrees with the prediction from the stabiliser strata; **for the 59 samples of dimension 3 and higher only the first three checks were made, no prediction is compared**.  79 samples where the hypothesis fails are skipped (SKIP); no sample disagrees | `results/summary.tsv` (recorded run); `SUMMARY=results/rerun.tsv scripts/run_corpus.sh` recomputes it in about 25 minutes; 66 CONFIRM and 8 SKIP rows are re-run by the fast tests |
+| 361 samples satisfy the hypothesis (characteristics 2, 3, 5, 7; dimensions 2 to 6) and get the verdict CONFIRM (see below the table); 79 samples where the hypothesis fails are skipped (SKIP); no sample disagrees | `results/summary.tsv` (recorded run); `SUMMARY=results/rerun.tsv scripts/run_corpus.sh` recomputes it in about 25 minutes; 66 CONFIRM and 8 SKIP rows are re-run by the fast tests |
 | for 11 of these a certificate with independent checks (exact properness test, 696 unit-ideal identities re-expanded in Python, exact rational test that the toric variety is projective) | `data/certificates/`, `scripts/verify_cofactors.py`, `scripts/projectivity_exact.py` |
 | Bergh's algorithm gives the Hirzebruch-Jung chain, computed independently, for all cyclic quotients `1/r(1,q)`, `r <= 16` (79 cases; the fast tests cover `r <= 12`), and smooth outputs with exactly unimodular cones for rank-3 and rank-4 test cones | `tests/catalog/` |
 | the package and the research code agree on 44 cones (both are my implementation of the same reading of Bergh, so this is a refactoring check, not an independent confirmation) | `tests/package_equivalence.sh` |
+
+CONFIRM means: the explicit toric resolution has smooth strict transform in every chart, and the toric map is proper and an isomorphism off the origin.  For the 302 surfaces among the 361, the resolution graph also agrees with the prediction from the stabiliser strata.  For the 59 samples of dimension 3 and higher only the first three checks were made; no prediction is compared.
 
 The word "confirmed" is used in the catalog only for the evidence classes L, X and V described there; a value that is
 only the output of the implementation is marked O.  For the rows of classes X and O the expected values of the fast tests are
@@ -118,22 +120,16 @@ copied from the recorded run of the same code: they are regression tests, not in
 * The version with "regular" instead of "smooth over `k`" (non-perfect fields).
 * Termination in practice of Algorithm B for high multiplicities: step A2 of Bergh's algorithm does not fix an order,
   and for the rank-3 cone `(1,2,5)` only some of the 16 readings finish in reasonable time (see the catalog).
-* Prior implementations: I looked in the Macaulay2, Sage, polymake and OSCAR documentation and did not find an
-  implementation of Bergh's destackification.  That is a search of limited scope, not a claim that none exists.
+* Prior implementations: I found none in the Macaulay2, Sage, polymake and OSCAR documentation (details in
+  [docs/REFERENCES.md](docs/REFERENCES.md)).  That is a search of limited scope, not a claim that none exists.
 
 ## Provenance (use of AI)
 
 This repository was developed with Claude (Anthropic's AI assistant), which drafted much of the Macaulay2 and Python
 code, the documentation and the tests, and read the cited papers.  I chose the question, decided what to claim and
 what not to claim, ran the computations and decided how they should be checked.  The citations were re-compared with
-the arXiv texts by the assistant (2026-10-07); I have **not** myself re-read the original text of Satriano, Cor. 1.8
-or Bergh, Thm A.1(e), and the final read-through of the mathematical documents by a human specialist is still to be done.
-Corrections are welcome.
-
-## Background
-
-This started as a personal project (September 2026) after a master's degree in which I had worked on resolution of
-quasi-homogeneous singularities in positive characteristic without finishing the resolution.  It is not part of any thesis.
+the arXiv texts by the assistant (2026-10-07); I have not myself re-read the original text of Satriano, Cor. 1.8
+or Bergh, Thm A.1(e).  Corrections are welcome.
 
 ## License and author
 
