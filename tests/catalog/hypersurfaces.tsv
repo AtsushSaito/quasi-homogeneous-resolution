@@ -1,0 +1,441 @@
+id	category	p	n_vars	equation	weights	degree	features	expected_verdict	expected_strata_orders	expected_curves	expected_arms	expected_centre_self	expected_genus	evidence	source	certificate	tier	seconds_when_recorded
+A1_p2_w1n1	S1 rational double points (surfaces)	2	3	x*y + z^2	{1, 1, 1}	2	p|d	CONFIRM	{}	1	{}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	0
+A2_p2_w1n1	S1 rational double points (surfaces)	2	3	x*y + z^3	{1, 2, 1}	3	p|w_i;p|r	CONFIRM	{2}	2	{1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A3_p2_w1n1	S1 rational double points (surfaces)	2	3	x*y + z^4	{1, 3, 1}	4	p|d	CONFIRM	{3}	3	{2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A4_p2_w1n1	S1 rational double points (surfaces)	2	3	x*y + z^5	{1, 4, 1}	5	p|w_i;p|r	CONFIRM	{4}	4	{3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A5_p2_w1n1	S1 rational double points (surfaces)	2	3	x*y + z^6	{1, 5, 1}	6	p|d	CONFIRM	{5}	5	{4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	1
+A6_p2_w1n1	S1 rational double points (surfaces)	2	3	x*y + z^7	{1, 6, 1}	7	p|w_i;p|r	CONFIRM	{6}	6	{5}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A7_p2_w1n1	S1 rational double points (surfaces)	2	3	x*y + z^8	{1, 7, 1}	8	p|d	CONFIRM	{7}	7	{6}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	2
+A3_p2_whh1	S1 rational double points (surfaces)	2	3	x*y + z^4	{2, 2, 1}	4	p|w_i;p|d;p|r;alt weights	CONFIRM	{2, 2}	3	{1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A5_p2_whh1	S1 rational double points (surfaces)	2	3	x*y + z^6	{3, 3, 1}	6	p|d;alt weights	CONFIRM	{3, 3}	5	{2, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	1
+A7_p2_whh1	S1 rational double points (surfaces)	2	3	x*y + z^8	{4, 4, 1}	8	p|w_i;p|d;p|r;alt weights	CONFIRM	{4, 4}	7	{3, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A9_p2_whh1	S1 rational double points (surfaces)	2	3	x*y + z^10	{5, 5, 1}	10	p|d;alt weights	CONFIRM	{5, 5}	9	{4, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	2
+D40_p2	S1 rational double points (surfaces)	2	3	z^2 + x^2*y + x*y^2	{2, 2, 3}	6	p|w_i;p|d;p|r	CONFIRM	{2, 2, 2}	4	{1, 1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation of Artin char-2 type 0-form, Artin 1977 / Matsumoto Table 1 (not re-read)	-	ci	1
+D60_p2	S1 rational double points (surfaces)	2	3	z^2 + x^2*y + x*y^3	{4, 2, 5}	10	p|w_i;p|d;p|r	CONFIRM	{4, 2, 2}	6	{1, 1, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation of Artin char-2 type 0-form, Artin 1977 / Matsumoto Table 1 (not re-read)	-	ci	2
+D80_p2	S1 rational double points (surfaces)	2	3	z^2 + x^2*y + x*y^4	{6, 2, 7}	14	p|w_i;p|d;p|r	CONFIRM	{6, 2, 2}	8	{1, 1, 5}	-2	0	L	ADE dual graph of a rational double point (classical); equation of Artin char-2 type 0-form, Artin 1977 / Matsumoto Table 1 (not re-read)	-	heavy	3
+D50_p2	S1 rational double points (surfaces)	2	3	z^2 + x^2*y + y^2*z	{3, 2, 4}	8	p|w_i;p|d;p|r	CONFIRM	{3, 2, 2}	5	{1, 1, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation of Artin char-2 type 0-form, Artin 1977 / Matsumoto Table 1 (not re-read)	-	ci	2
+D70_p2	S1 rational double points (surfaces)	2	3	z^2 + x^2*y + y^3*z	{5, 2, 6}	12	p|w_i;p|d;p|r	CONFIRM	{5, 2, 2}	7	{1, 1, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation of Artin char-2 type 0-form, Artin 1977 / Matsumoto Table 1 (not re-read)	-	ci	3
+E60_p2	S1 rational double points (surfaces)	2	3	z^2 + x^3 + y^2*z	{4, 3, 6}	12	p|w_i;p|d;p|r	CONFIRM	{3, 2, 3}	6	{1, 2, 2}	-2	0	LV	ADE dual graph of a rational double point (classical); equation of Artin char-2 type 0-form, Artin 1977 / Matsumoto Table 1 (not re-read)	data/certificates/E60_p2.txt	ci	3
+E7_p2	S1 rational double points (surfaces)	2	3	z^2 + x^3 + x*y^3	{6, 4, 9}	18	p|w_i;p|d;p|r	CONFIRM	{4, 2, 3}	7	{1, 2, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	4
+E8_p2	S1 rational double points (surfaces)	2	3	z^2 + x^3 + y^5	{10, 6, 15}	30	p|w_i;p|d;p|r	CONFIRM	{2, 5, 3}	8	{1, 2, 4}	-2	0	LV	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	data/certificates/E8_p2.txt	ci	5
+A1_p3_w1n1	S1 rational double points (surfaces)	3	3	x*y + z^2	{1, 1, 1}	2	-	CONFIRM	{}	1	{}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	0
+A2_p3_w1n1	S1 rational double points (surfaces)	3	3	x*y + z^3	{1, 2, 1}	3	p|d	CONFIRM	{2}	2	{1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	0
+A3_p3_w1n1	S1 rational double points (surfaces)	3	3	x*y + z^4	{1, 3, 1}	4	p|w_i;p|r	CONFIRM	{3}	3	{2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A4_p3_w1n1	S1 rational double points (surfaces)	3	3	x*y + z^5	{1, 4, 1}	5	-	CONFIRM	{4}	4	{3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A5_p3_w1n1	S1 rational double points (surfaces)	3	3	x*y + z^6	{1, 5, 1}	6	p|d	CONFIRM	{5}	5	{4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A6_p3_w1n1	S1 rational double points (surfaces)	3	3	x*y + z^7	{1, 6, 1}	7	p|w_i;p|r	CONFIRM	{6}	6	{5}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A7_p3_w1n1	S1 rational double points (surfaces)	3	3	x*y + z^8	{1, 7, 1}	8	-	CONFIRM	{7}	7	{6}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	1
+A3_p3_whh1	S1 rational double points (surfaces)	3	3	x*y + z^4	{2, 2, 1}	4	alt weights	CONFIRM	{2, 2}	3	{1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A5_p3_whh1	S1 rational double points (surfaces)	3	3	x*y + z^6	{3, 3, 1}	6	p|w_i;p|d;p|r;alt weights	CONFIRM	{3, 3}	5	{2, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	0
+A7_p3_whh1	S1 rational double points (surfaces)	3	3	x*y + z^8	{4, 4, 1}	8	alt weights	CONFIRM	{4, 4}	7	{3, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A9_p3_whh1	S1 rational double points (surfaces)	3	3	x*y + z^10	{5, 5, 1}	10	alt weights	CONFIRM	{5, 5}	9	{4, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	1
+D4_p3	S1 rational double points (surfaces)	3	3	z^2 + x^2*y + y^3	{2, 2, 3}	6	p|w_i;p|d	CONFIRM	{2, 2}	4	{1, 1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	2
+D5_p3	S1 rational double points (surfaces)	3	3	z^2 + x^2*y + y^4	{3, 2, 4}	8	p|w_i;p|r	CONFIRM	{3, 2}	5	{1, 1, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	2
+D6_p3	S1 rational double points (surfaces)	3	3	z^2 + x^2*y + y^5	{4, 2, 5}	10	-	CONFIRM	{4, 2}	6	{1, 1, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	3
+D7_p3	S1 rational double points (surfaces)	3	3	z^2 + x^2*y + y^6	{5, 2, 6}	12	p|w_i;p|d	CONFIRM	{5, 2}	7	{1, 1, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	3
+D8_p3	S1 rational double points (surfaces)	3	3	z^2 + x^2*y + y^7	{6, 2, 7}	14	p|w_i;p|r	CONFIRM	{6, 2}	8	{1, 1, 5}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	3
+E6_p3	S1 rational double points (surfaces)	3	3	z^2 + x^3 + y^4	{4, 3, 6}	12	p|w_i;p|d;p|r	CONFIRM	{2, 3}	6	{1, 2, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	3
+E7_p3	S1 rational double points (surfaces)	3	3	z^2 + x^3 + x*y^3	{6, 4, 9}	18	p|w_i;p|d;p|r	CONFIRM	{4, 2, 3}	7	{1, 2, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	9
+E8_p3	S1 rational double points (surfaces)	3	3	z^2 + x^3 + y^5	{10, 6, 15}	30	p|w_i;p|d;p|r	CONFIRM	{2, 5, 3}	8	{1, 2, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	4
+A1_p5_w1n1	S1 rational double points (surfaces)	5	3	x*y + z^2	{1, 1, 1}	2	-	CONFIRM	{}	1	{}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A2_p5_w1n1	S1 rational double points (surfaces)	5	3	x*y + z^3	{1, 2, 1}	3	-	CONFIRM	{2}	2	{1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	0
+A3_p5_w1n1	S1 rational double points (surfaces)	5	3	x*y + z^4	{1, 3, 1}	4	-	CONFIRM	{3}	3	{2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	0
+A4_p5_w1n1	S1 rational double points (surfaces)	5	3	x*y + z^5	{1, 4, 1}	5	p|d	CONFIRM	{4}	4	{3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A5_p5_w1n1	S1 rational double points (surfaces)	5	3	x*y + z^6	{1, 5, 1}	6	p|w_i;p|r	CONFIRM	{5}	5	{4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A6_p5_w1n1	S1 rational double points (surfaces)	5	3	x*y + z^7	{1, 6, 1}	7	-	CONFIRM	{6}	6	{5}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	0
+A7_p5_w1n1	S1 rational double points (surfaces)	5	3	x*y + z^8	{1, 7, 1}	8	-	CONFIRM	{7}	7	{6}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A3_p5_whh1	S1 rational double points (surfaces)	5	3	x*y + z^4	{2, 2, 1}	4	alt weights	CONFIRM	{2, 2}	3	{1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A5_p5_whh1	S1 rational double points (surfaces)	5	3	x*y + z^6	{3, 3, 1}	6	alt weights	CONFIRM	{3, 3}	5	{2, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A7_p5_whh1	S1 rational double points (surfaces)	5	3	x*y + z^8	{4, 4, 1}	8	alt weights	CONFIRM	{4, 4}	7	{3, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A9_p5_whh1	S1 rational double points (surfaces)	5	3	x*y + z^10	{5, 5, 1}	10	p|w_i;p|d;p|r;alt weights	CONFIRM	{5, 5}	9	{4, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+D4_p5	S1 rational double points (surfaces)	5	3	z^2 + x^2*y + y^3	{2, 2, 3}	6	-	CONFIRM	{2, 2}	4	{1, 1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+D5_p5	S1 rational double points (surfaces)	5	3	z^2 + x^2*y + y^4	{3, 2, 4}	8	-	CONFIRM	{3, 2}	5	{1, 1, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	1
+D6_p5	S1 rational double points (surfaces)	5	3	z^2 + x^2*y + y^5	{4, 2, 5}	10	p|w_i;p|d	CONFIRM	{4, 2}	6	{1, 1, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	2
+D7_p5	S1 rational double points (surfaces)	5	3	z^2 + x^2*y + y^6	{5, 2, 6}	12	p|w_i;p|r	CONFIRM	{5, 2}	7	{1, 1, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	3
+D8_p5	S1 rational double points (surfaces)	5	3	z^2 + x^2*y + y^7	{6, 2, 7}	14	-	CONFIRM	{6, 2}	8	{1, 1, 5}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	4
+E6_p5	S1 rational double points (surfaces)	5	3	z^2 + x^3 + y^4	{4, 3, 6}	12	-	CONFIRM	{2, 3}	6	{1, 2, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	3
+E7_p5	S1 rational double points (surfaces)	5	3	z^2 + x^3 + x*y^3	{6, 4, 9}	18	-	CONFIRM	{4, 2, 3}	7	{1, 2, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	4
+E8_p5	S1 rational double points (surfaces)	5	3	z^2 + x^3 + y^5	{10, 6, 15}	30	p|w_i;p|d;p|r	CONFIRM	{2, 5, 3}	8	{1, 2, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	5
+A1_p7_w1n1	S1 rational double points (surfaces)	7	3	x*y + z^2	{1, 1, 1}	2	-	CONFIRM	{}	1	{}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	0
+A2_p7_w1n1	S1 rational double points (surfaces)	7	3	x*y + z^3	{1, 2, 1}	3	-	CONFIRM	{2}	2	{1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	1
+A3_p7_w1n1	S1 rational double points (surfaces)	7	3	x*y + z^4	{1, 3, 1}	4	-	CONFIRM	{3}	3	{2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	2
+A4_p7_w1n1	S1 rational double points (surfaces)	7	3	x*y + z^5	{1, 4, 1}	5	-	CONFIRM	{4}	4	{3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	3
+A5_p7_w1n1	S1 rational double points (surfaces)	7	3	x*y + z^6	{1, 5, 1}	6	-	CONFIRM	{5}	5	{4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	4
+A6_p7_w1n1	S1 rational double points (surfaces)	7	3	x*y + z^7	{1, 6, 1}	7	p|d	CONFIRM	{6}	6	{5}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	ci	5
+A7_p7_w1n1	S1 rational double points (surfaces)	7	3	x*y + z^8	{1, 7, 1}	8	p|w_i;p|r	CONFIRM	{7}	7	{6}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	4
+A3_p7_whh1	S1 rational double points (surfaces)	7	3	x*y + z^4	{2, 2, 1}	4	alt weights	CONFIRM	{2, 2}	3	{1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	2
+A5_p7_whh1	S1 rational double points (surfaces)	7	3	x*y + z^6	{3, 3, 1}	6	alt weights	CONFIRM	{3, 3}	5	{2, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	4
+A7_p7_whh1	S1 rational double points (surfaces)	7	3	x*y + z^8	{4, 4, 1}	8	alt weights	CONFIRM	{4, 4}	7	{3, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	3
+A9_p7_whh1	S1 rational double points (surfaces)	7	3	x*y + z^10	{5, 5, 1}	10	alt weights	CONFIRM	{5, 5}	9	{4, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	4
+D4_p7	S1 rational double points (surfaces)	7	3	z^2 + x^2*y + y^3	{2, 2, 3}	6	-	CONFIRM	{2, 2}	4	{1, 1, 1}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	6
+D5_p7	S1 rational double points (surfaces)	7	3	z^2 + x^2*y + y^4	{3, 2, 4}	8	-	CONFIRM	{3, 2}	5	{1, 1, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	10
+D6_p7	S1 rational double points (surfaces)	7	3	z^2 + x^2*y + y^5	{4, 2, 5}	10	-	CONFIRM	{4, 2}	6	{1, 1, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	14
+D7_p7	S1 rational double points (surfaces)	7	3	z^2 + x^2*y + y^6	{5, 2, 6}	12	-	CONFIRM	{5, 2}	7	{1, 1, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	20
+D8_p7	S1 rational double points (surfaces)	7	3	z^2 + x^2*y + y^7	{6, 2, 7}	14	p|w_i;p|d	CONFIRM	{6, 2}	8	{1, 1, 5}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	21
+E6_p7	S1 rational double points (surfaces)	7	3	z^2 + x^3 + y^4	{4, 3, 6}	12	-	CONFIRM	{2, 3}	6	{1, 2, 2}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	24
+E7_p7	S1 rational double points (surfaces)	7	3	z^2 + x^3 + x*y^3	{6, 4, 9}	18	-	CONFIRM	{4, 2, 3}	7	{1, 2, 3}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	3
+E8_p7	S1 rational double points (surfaces)	7	3	z^2 + x^3 + y^5	{10, 6, 15}	30	-	CONFIRM	{2, 5, 3}	8	{1, 2, 4}	-2	0	L	ADE dual graph of a rational double point (classical); equation: standard quasi-homogeneous normal form	-	heavy	5
+BP222_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^2 + z^2	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP223_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^2 + z^3	{3, 3, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP224_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^2 + z^4	{2, 2, 1}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP225_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^2 + z^5	{5, 5, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP226_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^2 + z^6	{3, 3, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP227_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^2 + z^7	{7, 7, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP233_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^3 + z^3	{3, 2, 2}	6	p|w_i;p|d;p|r	CONFIRM	{2}	4	{1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP234_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^3 + z^4	{6, 4, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	ci	0
+BP235_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^3 + z^5	{15, 10, 6}	30	p|w_i;p|d;p|r	CONFIRM	{5, 3, 2}	8	{1, 2, 4}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	20
+BP236_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^3 + z^6	{3, 2, 1}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP237_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^3 + z^7	{21, 14, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7, 3, 2}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	21
+BP244_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^4 + z^4	{2, 1, 1}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP245_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^4 + z^5	{10, 5, 4}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP246_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^4 + z^6	{6, 3, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP247_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^4 + z^7	{14, 7, 4}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP255_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^5 + z^5	{5, 2, 2}	10	p|w_i;p|d;p|r	CONFIRM	{2}	6	{1, 1, 1, 1, 1}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	31
+BP256_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^5 + z^6	{15, 6, 5}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP257_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^5 + z^7	{35, 14, 10}	70	p|w_i;p|d;p|r	CONFIRM	{7, 5, 2}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	24
+BP266_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^6 + z^6	{3, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP267_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^6 + z^7	{21, 7, 6}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP277_p2	S2 Brieskorn-Pham surfaces	2	3	x^2 + y^7 + z^7	{7, 2, 2}	14	p|w_i;p|d;p|r	CONFIRM	{2}	8	{1, 1, 1, 1, 1, 1, 1}	-4	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	54
+BP333_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^3 + z^3	{1, 1, 1}	3	-	CONFIRM	{}	1	{}	-3	1	X	Brieskorn-Pham x^a+y^b+z^c	-	ci	5
+BP334_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^3 + z^4	{4, 4, 3}	12	p|w_i;p|d;p|r	CONFIRM	{4}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	24
+BP335_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^3 + z^5	{5, 5, 3}	15	-	CONFIRM	{5}	7	{2, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP336_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^3 + z^6	{2, 2, 1}	6	p|w_i;p|d;p|r	CONFIRM	{2}	4	{1, 1, 1}	-3	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP337_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^3 + z^7	{7, 7, 3}	21	-	CONFIRM	{7}	7	{2, 2, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP344_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^4 + z^4	{4, 3, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP345_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^4 + z^5	{20, 15, 12}	60	p|w_i;p|d;p|r	CONFIRM	{5, 4, 3}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP346_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^4 + z^6	{4, 3, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP347_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^4 + z^7	{28, 21, 12}	84	p|w_i;p|d;p|r	CONFIRM	{7, 4, 3}	8	{2, 2, 3}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	8
+BP355_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^5 + z^5	{5, 3, 3}	15	-	CONFIRM	{3}	6	{1, 1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP356_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^5 + z^6	{10, 6, 5}	30	p|w_i;p|d;p|r	CONFIRM	{2, 5}	14	{1, 4, 4, 4}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	10
+BP357_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^5 + z^7	{35, 21, 15}	105	-	CONFIRM	{7, 5, 3}	12	{1, 4, 6}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	12
+BP366_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^6 + z^6	{2, 1, 1}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP367_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^6 + z^7	{14, 7, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7, 2}	5	{1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP377_p2	S2 Brieskorn-Pham surfaces	2	3	x^3 + y^7 + z^7	{7, 3, 3}	21	-	CONFIRM	{3}	15	{2, 2, 2, 2, 2, 2, 2}	-5	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	11
+BP444_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^4 + z^4	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP445_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^4 + z^5	{5, 5, 4}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP446_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^4 + z^6	{3, 3, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP447_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^4 + z^7	{7, 7, 4}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP455_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^5 + z^5	{5, 4, 4}	20	p|w_i;p|d;p|r	CONFIRM	{4}	16	{3, 3, 3, 3, 3}	-4	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	11
+BP456_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^5 + z^6	{15, 12, 10}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP457_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^5 + z^7	{35, 28, 20}	140	p|w_i;p|d;p|r	CONFIRM	{7, 5, 4}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP466_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^6 + z^6	{3, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP467_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^6 + z^7	{21, 14, 12}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP477_p2	S2 Brieskorn-Pham surfaces	2	3	x^4 + y^7 + z^7	{7, 4, 4}	28	p|w_i;p|d;p|r	CONFIRM	{4}	8	{1, 1, 1, 1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP555_p2	S2 Brieskorn-Pham surfaces	2	3	x^5 + y^5 + z^5	{1, 1, 1}	5	-	CONFIRM	{}	1	{}	-5	6	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP556_p2	S2 Brieskorn-Pham surfaces	2	3	x^5 + y^5 + z^6	{6, 6, 5}	30	p|w_i;p|d;p|r	CONFIRM	{6}	6	{1, 1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP557_p2	S2 Brieskorn-Pham surfaces	2	3	x^5 + y^5 + z^7	{7, 7, 5}	35	-	CONFIRM	{7}	11	{2, 2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	7
+BP566_p2	S2 Brieskorn-Pham surfaces	2	3	x^5 + y^6 + z^6	{6, 5, 5}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP567_p2	S2 Brieskorn-Pham surfaces	2	3	x^5 + y^6 + z^7	{42, 35, 30}	210	p|w_i;p|d;p|r	CONFIRM	{7, 6, 5}	7	{1, 2, 3}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	13
+BP577_p2	S2 Brieskorn-Pham surfaces	2	3	x^5 + y^7 + z^7	{7, 5, 5}	35	-	CONFIRM	{5}	15	{2, 2, 2, 2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	11
+BP666_p2	S2 Brieskorn-Pham surfaces	2	3	x^6 + y^6 + z^6	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP667_p2	S2 Brieskorn-Pham surfaces	2	3	x^6 + y^6 + z^7	{7, 7, 6}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP677_p2	S2 Brieskorn-Pham surfaces	2	3	x^6 + y^7 + z^7	{7, 6, 6}	42	p|w_i;p|d;p|r	CONFIRM	{6}	36	{5, 5, 5, 5, 5, 5, 5}	-6	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	30
+BP777_p2	S2 Brieskorn-Pham surfaces	2	3	x^7 + y^7 + z^7	{1, 1, 1}	7	-	CONFIRM	{}	1	{}	-7	15	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP222_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^2 + z^2	{1, 1, 1}	2	-	CONFIRM	{}	1	{}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP223_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^2 + z^3	{3, 3, 2}	6	p|w_i;p|d;p|r	CONFIRM	{3}	3	{1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	ci	1
+BP224_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^2 + z^4	{2, 2, 1}	4	-	CONFIRM	{2}	3	{1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP225_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^2 + z^5	{5, 5, 2}	10	-	CONFIRM	{5}	5	{2, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP226_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^2 + z^6	{3, 3, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3}	5	{2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP227_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^2 + z^7	{7, 7, 2}	14	-	CONFIRM	{7}	7	{3, 3}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP233_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^3 + z^3	{3, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP234_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^3 + z^4	{6, 4, 3}	12	p|w_i;p|d;p|r	CONFIRM	{2, 3}	6	{1, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP235_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^3 + z^5	{15, 10, 6}	30	p|w_i;p|d;p|r	CONFIRM	{5, 3, 2}	8	{1, 2, 4}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP236_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^3 + z^6	{3, 2, 1}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP237_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^3 + z^7	{21, 14, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7, 3, 2}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP244_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^4 + z^4	{2, 1, 1}	4	-	CONFIRM	{}	1	{}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP245_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^4 + z^5	{10, 5, 4}	20	-	CONFIRM	{5, 2}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP246_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^4 + z^6	{6, 3, 2}	12	p|w_i;p|d;p|r	CONFIRM	{3, 2}	5	{1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP247_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^4 + z^7	{14, 7, 4}	28	-	CONFIRM	{7, 2}	8	{1, 3, 3}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP255_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^5 + z^5	{5, 2, 2}	10	-	CONFIRM	{2}	6	{1, 1, 1, 1, 1}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	ci	3
+BP256_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^5 + z^6	{15, 6, 5}	30	p|w_i;p|d;p|r	CONFIRM	{3, 5}	10	{1, 4, 4}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP257_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^5 + z^7	{35, 14, 10}	70	-	CONFIRM	{7, 5, 2}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP266_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^6 + z^6	{3, 1, 1}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP267_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^6 + z^7	{21, 7, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7, 3}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP277_p3	S2 Brieskorn-Pham surfaces	3	3	x^2 + y^7 + z^7	{7, 2, 2}	14	-	CONFIRM	{2}	8	{1, 1, 1, 1, 1, 1, 1}	-4	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP333_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^3 + z^3	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP334_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^3 + z^4	{4, 4, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP335_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^3 + z^5	{5, 5, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP336_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^3 + z^6	{2, 2, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP337_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^3 + z^7	{7, 7, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP344_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^4 + z^4	{4, 3, 3}	12	p|w_i;p|d;p|r	CONFIRM	{3}	9	{2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP345_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^4 + z^5	{20, 15, 12}	60	p|w_i;p|d;p|r	CONFIRM	{5, 4, 3}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP346_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^4 + z^6	{4, 3, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP347_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^4 + z^7	{28, 21, 12}	84	p|w_i;p|d;p|r	CONFIRM	{7, 4, 3}	8	{2, 2, 3}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP355_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^5 + z^5	{5, 3, 3}	15	p|w_i;p|d;p|r	CONFIRM	{3}	6	{1, 1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP356_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^5 + z^6	{10, 6, 5}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP357_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^5 + z^7	{35, 21, 15}	105	p|w_i;p|d;p|r	CONFIRM	{7, 5, 3}	12	{1, 4, 6}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	ci	9
+BP366_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^6 + z^6	{2, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP367_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^6 + z^7	{14, 7, 6}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP377_p3	S2 Brieskorn-Pham surfaces	3	3	x^3 + y^7 + z^7	{7, 3, 3}	21	p|w_i;p|d;p|r	CONFIRM	{3}	15	{2, 2, 2, 2, 2, 2, 2}	-5	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	9
+BP444_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^4 + z^4	{1, 1, 1}	4	-	CONFIRM	{}	1	{}	-4	3	X	Brieskorn-Pham x^a+y^b+z^c	-	ci	1
+BP445_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^4 + z^5	{5, 5, 4}	20	-	CONFIRM	{5}	5	{1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP446_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^4 + z^6	{3, 3, 2}	12	p|w_i;p|d;p|r	CONFIRM	{3}	5	{1, 1, 1, 1}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP447_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^4 + z^7	{7, 7, 4}	28	-	CONFIRM	{7}	13	{3, 3, 3, 3}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP455_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^5 + z^5	{5, 4, 4}	20	-	CONFIRM	{4}	16	{3, 3, 3, 3, 3}	-4	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	9
+BP456_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^5 + z^6	{15, 12, 10}	60	p|w_i;p|d;p|r	CONFIRM	{3, 5, 2}	8	{1, 2, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP457_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^5 + z^7	{35, 28, 20}	140	-	CONFIRM	{7, 5, 4}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP466_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^6 + z^6	{3, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP467_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^6 + z^7	{21, 14, 12}	84	p|w_i;p|d;p|r	CONFIRM	{7, 3, 2}	7	{1, 1, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP477_p3	S2 Brieskorn-Pham surfaces	3	3	x^4 + y^7 + z^7	{7, 4, 4}	28	-	CONFIRM	{4}	8	{1, 1, 1, 1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP555_p3	S2 Brieskorn-Pham surfaces	3	3	x^5 + y^5 + z^5	{1, 1, 1}	5	-	CONFIRM	{}	1	{}	-5	6	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP556_p3	S2 Brieskorn-Pham surfaces	3	3	x^5 + y^5 + z^6	{6, 6, 5}	30	p|w_i;p|d;p|r	CONFIRM	{6}	6	{1, 1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP557_p3	S2 Brieskorn-Pham surfaces	3	3	x^5 + y^5 + z^7	{7, 7, 5}	35	-	CONFIRM	{7}	11	{2, 2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP566_p3	S2 Brieskorn-Pham surfaces	3	3	x^5 + y^6 + z^6	{6, 5, 5}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP567_p3	S2 Brieskorn-Pham surfaces	3	3	x^5 + y^6 + z^7	{42, 35, 30}	210	p|w_i;p|d;p|r	CONFIRM	{7, 6, 5}	7	{1, 2, 3}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP577_p3	S2 Brieskorn-Pham surfaces	3	3	x^5 + y^7 + z^7	{7, 5, 5}	35	-	CONFIRM	{5}	15	{2, 2, 2, 2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	10
+BP666_p3	S2 Brieskorn-Pham surfaces	3	3	x^6 + y^6 + z^6	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP667_p3	S2 Brieskorn-Pham surfaces	3	3	x^6 + y^6 + z^7	{7, 7, 6}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP677_p3	S2 Brieskorn-Pham surfaces	3	3	x^6 + y^7 + z^7	{7, 6, 6}	42	p|w_i;p|d;p|r	CONFIRM	{6}	36	{5, 5, 5, 5, 5, 5, 5}	-6	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	27
+BP777_p3	S2 Brieskorn-Pham surfaces	3	3	x^7 + y^7 + z^7	{1, 1, 1}	7	-	CONFIRM	{}	1	{}	-7	15	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP222_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^2 + z^2	{1, 1, 1}	2	-	CONFIRM	{}	1	{}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	ci	1
+BP223_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^2 + z^3	{3, 3, 2}	6	-	CONFIRM	{3}	3	{1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP224_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^2 + z^4	{2, 2, 1}	4	-	CONFIRM	{2}	3	{1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP225_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^2 + z^5	{5, 5, 2}	10	p|w_i;p|d;p|r	CONFIRM	{5}	5	{2, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP226_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^2 + z^6	{3, 3, 1}	6	-	CONFIRM	{3}	5	{2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP227_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^2 + z^7	{7, 7, 2}	14	-	CONFIRM	{7}	7	{3, 3}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP233_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^3 + z^3	{3, 2, 2}	6	-	CONFIRM	{2}	4	{1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP234_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^3 + z^4	{6, 4, 3}	12	-	CONFIRM	{2, 3}	6	{1, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP235_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^3 + z^5	{15, 10, 6}	30	p|w_i;p|d;p|r	CONFIRM	{5, 3, 2}	8	{1, 2, 4}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP236_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^3 + z^6	{3, 2, 1}	6	-	CONFIRM	{}	1	{}	-1	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP237_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^3 + z^7	{21, 14, 6}	42	-	CONFIRM	{7, 3, 2}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP244_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^4 + z^4	{2, 1, 1}	4	-	CONFIRM	{}	1	{}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP245_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^4 + z^5	{10, 5, 4}	20	p|w_i;p|d;p|r	CONFIRM	{5, 2}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	ci	2
+BP246_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^4 + z^6	{6, 3, 2}	12	-	CONFIRM	{3, 2}	5	{1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP247_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^4 + z^7	{14, 7, 4}	28	-	CONFIRM	{7, 2}	8	{1, 3, 3}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP255_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^5 + z^5	{5, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP256_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^5 + z^6	{15, 6, 5}	30	p|w_i;p|d;p|r	CONFIRM	{3, 5}	10	{1, 4, 4}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP257_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^5 + z^7	{35, 14, 10}	70	p|w_i;p|d;p|r	CONFIRM	{7, 5, 2}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP266_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^6 + z^6	{3, 1, 1}	6	-	CONFIRM	{}	1	{}	-2	2	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP267_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^6 + z^7	{21, 7, 6}	42	-	CONFIRM	{7, 3}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP277_p5	S2 Brieskorn-Pham surfaces	5	3	x^2 + y^7 + z^7	{7, 2, 2}	14	-	CONFIRM	{2}	8	{1, 1, 1, 1, 1, 1, 1}	-4	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP333_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^3 + z^3	{1, 1, 1}	3	-	CONFIRM	{}	1	{}	-3	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP334_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^3 + z^4	{4, 4, 3}	12	-	CONFIRM	{4}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP335_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^3 + z^5	{5, 5, 3}	15	p|w_i;p|d;p|r	CONFIRM	{5}	7	{2, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP336_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^3 + z^6	{2, 2, 1}	6	-	CONFIRM	{2}	4	{1, 1, 1}	-3	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP337_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^3 + z^7	{7, 7, 3}	21	-	CONFIRM	{7}	7	{2, 2, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP344_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^4 + z^4	{4, 3, 3}	12	-	CONFIRM	{3}	9	{2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	11
+BP345_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^4 + z^5	{20, 15, 12}	60	p|w_i;p|d;p|r	CONFIRM	{5, 4, 3}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	9
+BP346_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^4 + z^6	{4, 3, 2}	12	-	CONFIRM	{2}	4	{1, 1, 1}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP347_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^4 + z^7	{28, 21, 12}	84	-	CONFIRM	{7, 4, 3}	8	{2, 2, 3}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	20
+BP355_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^5 + z^5	{5, 3, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP356_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^5 + z^6	{10, 6, 5}	30	p|w_i;p|d;p|r	CONFIRM	{2, 5}	14	{1, 4, 4, 4}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	37
+BP357_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^5 + z^7	{35, 21, 15}	105	p|w_i;p|d;p|r	CONFIRM	{7, 5, 3}	12	{1, 4, 6}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	35
+BP366_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^6 + z^6	{2, 1, 1}	6	-	CONFIRM	{}	1	{}	-3	4	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP367_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^6 + z^7	{14, 7, 6}	42	-	CONFIRM	{7, 2}	5	{1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP377_p5	S2 Brieskorn-Pham surfaces	5	3	x^3 + y^7 + z^7	{7, 3, 3}	21	-	CONFIRM	{3}	15	{2, 2, 2, 2, 2, 2, 2}	-5	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	9
+BP444_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^4 + z^4	{1, 1, 1}	4	-	CONFIRM	{}	1	{}	-4	3	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP445_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^4 + z^5	{5, 5, 4}	20	p|w_i;p|d;p|r	CONFIRM	{5}	5	{1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP446_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^4 + z^6	{3, 3, 2}	12	-	CONFIRM	{3}	5	{1, 1, 1, 1}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP447_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^4 + z^7	{7, 7, 4}	28	-	CONFIRM	{7}	13	{3, 3, 3, 3}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP455_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^5 + z^5	{5, 4, 4}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP456_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^5 + z^6	{15, 12, 10}	60	p|w_i;p|d;p|r	CONFIRM	{3, 5, 2}	8	{1, 2, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP457_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^5 + z^7	{35, 28, 20}	140	p|w_i;p|d;p|r	CONFIRM	{7, 5, 4}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP466_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^6 + z^6	{3, 2, 2}	12	-	CONFIRM	{2}	7	{1, 1, 1, 1, 1, 1}	-4	2	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP467_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^6 + z^7	{21, 14, 12}	84	-	CONFIRM	{7, 3, 2}	7	{1, 1, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP477_p5	S2 Brieskorn-Pham surfaces	5	3	x^4 + y^7 + z^7	{7, 4, 4}	28	-	CONFIRM	{4}	8	{1, 1, 1, 1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP555_p5	S2 Brieskorn-Pham surfaces	5	3	x^5 + y^5 + z^5	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP556_p5	S2 Brieskorn-Pham surfaces	5	3	x^5 + y^5 + z^6	{6, 6, 5}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP557_p5	S2 Brieskorn-Pham surfaces	5	3	x^5 + y^5 + z^7	{7, 7, 5}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP566_p5	S2 Brieskorn-Pham surfaces	5	3	x^5 + y^6 + z^6	{6, 5, 5}	30	p|w_i;p|d;p|r	CONFIRM	{5}	25	{4, 4, 4, 4, 4, 4}	-5	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	14
+BP567_p5	S2 Brieskorn-Pham surfaces	5	3	x^5 + y^6 + z^7	{42, 35, 30}	210	p|w_i;p|d;p|r	CONFIRM	{7, 6, 5}	7	{1, 2, 3}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP577_p5	S2 Brieskorn-Pham surfaces	5	3	x^5 + y^7 + z^7	{7, 5, 5}	35	p|w_i;p|d;p|r	CONFIRM	{5}	15	{2, 2, 2, 2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	9
+BP666_p5	S2 Brieskorn-Pham surfaces	5	3	x^6 + y^6 + z^6	{1, 1, 1}	6	-	CONFIRM	{}	1	{}	-6	10	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP667_p5	S2 Brieskorn-Pham surfaces	5	3	x^6 + y^6 + z^7	{7, 7, 6}	42	-	CONFIRM	{7}	7	{1, 1, 1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP677_p5	S2 Brieskorn-Pham surfaces	5	3	x^6 + y^7 + z^7	{7, 6, 6}	42	-	CONFIRM	{6}	36	{5, 5, 5, 5, 5, 5, 5}	-6	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	23
+BP777_p5	S2 Brieskorn-Pham surfaces	5	3	x^7 + y^7 + z^7	{1, 1, 1}	7	-	CONFIRM	{}	1	{}	-7	15	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP222_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^2 + z^2	{1, 1, 1}	2	-	CONFIRM	{}	1	{}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP223_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^2 + z^3	{3, 3, 2}	6	-	CONFIRM	{3}	3	{1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP224_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^2 + z^4	{2, 2, 1}	4	-	CONFIRM	{2}	3	{1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP225_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^2 + z^5	{5, 5, 2}	10	-	CONFIRM	{5}	5	{2, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP226_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^2 + z^6	{3, 3, 1}	6	-	CONFIRM	{3}	5	{2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP227_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^2 + z^7	{7, 7, 2}	14	p|w_i;p|d;p|r	CONFIRM	{7}	7	{3, 3}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP233_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^3 + z^3	{3, 2, 2}	6	-	CONFIRM	{2}	4	{1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP234_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^3 + z^4	{6, 4, 3}	12	-	CONFIRM	{2, 3}	6	{1, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP235_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^3 + z^5	{15, 10, 6}	30	-	CONFIRM	{5, 3, 2}	8	{1, 2, 4}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP236_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^3 + z^6	{3, 2, 1}	6	-	CONFIRM	{}	1	{}	-1	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP237_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^3 + z^7	{21, 14, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7, 3, 2}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP244_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^4 + z^4	{2, 1, 1}	4	-	CONFIRM	{}	1	{}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP245_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^4 + z^5	{10, 5, 4}	20	-	CONFIRM	{5, 2}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP246_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^4 + z^6	{6, 3, 2}	12	-	CONFIRM	{3, 2}	5	{1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP247_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^4 + z^7	{14, 7, 4}	28	p|w_i;p|d;p|r	CONFIRM	{7, 2}	8	{1, 3, 3}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP255_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^5 + z^5	{5, 2, 2}	10	-	CONFIRM	{2}	6	{1, 1, 1, 1, 1}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP256_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^5 + z^6	{15, 6, 5}	30	-	CONFIRM	{3, 5}	10	{1, 4, 4}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP257_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^5 + z^7	{35, 14, 10}	70	p|w_i;p|d;p|r	CONFIRM	{7, 5, 2}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP266_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^6 + z^6	{3, 1, 1}	6	-	CONFIRM	{}	1	{}	-2	2	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP267_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^6 + z^7	{21, 7, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7, 3}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP277_p7	S2 Brieskorn-Pham surfaces	7	3	x^2 + y^7 + z^7	{7, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP333_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^3 + z^3	{1, 1, 1}	3	-	CONFIRM	{}	1	{}	-3	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP334_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^3 + z^4	{4, 4, 3}	12	-	CONFIRM	{4}	4	{1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP335_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^3 + z^5	{5, 5, 3}	15	-	CONFIRM	{5}	7	{2, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP336_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^3 + z^6	{2, 2, 1}	6	-	CONFIRM	{2}	4	{1, 1, 1}	-3	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP337_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^3 + z^7	{7, 7, 3}	21	p|w_i;p|d;p|r	CONFIRM	{7}	7	{2, 2, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP344_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^4 + z^4	{4, 3, 3}	12	-	CONFIRM	{3}	9	{2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP345_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^4 + z^5	{20, 15, 12}	60	-	CONFIRM	{5, 4, 3}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP346_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^4 + z^6	{4, 3, 2}	12	-	CONFIRM	{2}	4	{1, 1, 1}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP347_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^4 + z^7	{28, 21, 12}	84	p|w_i;p|d;p|r	CONFIRM	{7, 4, 3}	8	{2, 2, 3}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP355_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^5 + z^5	{5, 3, 3}	15	-	CONFIRM	{3}	6	{1, 1, 1, 1, 1}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP356_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^5 + z^6	{10, 6, 5}	30	-	CONFIRM	{2, 5}	14	{1, 4, 4, 4}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	7
+BP357_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^5 + z^7	{35, 21, 15}	105	p|w_i;p|d;p|r	CONFIRM	{7, 5, 3}	12	{1, 4, 6}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	8
+BP366_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^6 + z^6	{2, 1, 1}	6	-	CONFIRM	{}	1	{}	-3	4	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP367_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^6 + z^7	{14, 7, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7, 2}	5	{1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP377_p7	S2 Brieskorn-Pham surfaces	7	3	x^3 + y^7 + z^7	{7, 3, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP444_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^4 + z^4	{1, 1, 1}	4	-	CONFIRM	{}	1	{}	-4	3	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP445_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^4 + z^5	{5, 5, 4}	20	-	CONFIRM	{5}	5	{1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP446_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^4 + z^6	{3, 3, 2}	12	-	CONFIRM	{3}	5	{1, 1, 1, 1}	-2	1	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	2
+BP447_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^4 + z^7	{7, 7, 4}	28	p|w_i;p|d;p|r	CONFIRM	{7}	13	{3, 3, 3, 3}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	6
+BP455_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^5 + z^5	{5, 4, 4}	20	-	CONFIRM	{4}	16	{3, 3, 3, 3, 3}	-4	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	8
+BP456_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^5 + z^6	{15, 12, 10}	60	-	CONFIRM	{3, 5, 2}	8	{1, 2, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP457_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^5 + z^7	{35, 28, 20}	140	p|w_i;p|d;p|r	CONFIRM	{7, 5, 4}	5	{1, 1, 2}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP466_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^6 + z^6	{3, 2, 2}	12	-	CONFIRM	{2}	7	{1, 1, 1, 1, 1, 1}	-4	2	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP467_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^6 + z^7	{21, 14, 12}	84	p|w_i;p|d;p|r	CONFIRM	{7, 3, 2}	7	{1, 1, 2, 2}	-2	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP477_p7	S2 Brieskorn-Pham surfaces	7	3	x^4 + y^7 + z^7	{7, 4, 4}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP555_p7	S2 Brieskorn-Pham surfaces	7	3	x^5 + y^5 + z^5	{1, 1, 1}	5	-	CONFIRM	{}	1	{}	-5	6	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP556_p7	S2 Brieskorn-Pham surfaces	7	3	x^5 + y^5 + z^6	{6, 6, 5}	30	-	CONFIRM	{6}	6	{1, 1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	3
+BP557_p7	S2 Brieskorn-Pham surfaces	7	3	x^5 + y^5 + z^7	{7, 7, 5}	35	p|w_i;p|d;p|r	CONFIRM	{7}	11	{2, 2, 2, 2, 2}	-3	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP566_p7	S2 Brieskorn-Pham surfaces	7	3	x^5 + y^6 + z^6	{6, 5, 5}	30	-	CONFIRM	{5}	25	{4, 4, 4, 4, 4, 4}	-5	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	14
+BP567_p7	S2 Brieskorn-Pham surfaces	7	3	x^5 + y^6 + z^7	{42, 35, 30}	210	p|w_i;p|d;p|r	CONFIRM	{7, 6, 5}	7	{1, 2, 3}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	5
+BP577_p7	S2 Brieskorn-Pham surfaces	7	3	x^5 + y^7 + z^7	{7, 5, 5}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP666_p7	S2 Brieskorn-Pham surfaces	7	3	x^6 + y^6 + z^6	{1, 1, 1}	6	-	CONFIRM	{}	1	{}	-6	10	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	1
+BP667_p7	S2 Brieskorn-Pham surfaces	7	3	x^6 + y^6 + z^7	{7, 7, 6}	42	p|w_i;p|d;p|r	CONFIRM	{7}	7	{1, 1, 1, 1, 1, 1}	-1	0	X	Brieskorn-Pham x^a+y^b+z^c	-	heavy	4
+BP677_p7	S2 Brieskorn-Pham surfaces	7	3	x^6 + y^7 + z^7	{7, 6, 6}	-	p|w_i	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+BP777_p7	S2 Brieskorn-Pham surfaces	7	3	x^7 + y^7 + z^7	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	Brieskorn-Pham x^a+y^b+z^c	-	heavy	0
+E12_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3 + y^7 + z^2	{14, 6, 21}	42	p|w_i;p|d;p|r	CONFIRM	{2, 7, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+E13_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3 + x*y^5 + z^2	{10, 4, 15}	30	p|w_i;p|d;p|r	CONFIRM	{4, 2, 5}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+E14_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3 + y^8 + z^2	{8, 3, 12}	-	p|w_i	SKIP	-	-	-	-	-	N	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	0
+Z11_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3*y + y^5 + z^2	{8, 6, 15}	30	p|w_i;p|d;p|r	CONFIRM	{8, 2, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	3
+Z12_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3*y + x*y^4 + z^2	{6, 4, 11}	22	p|w_i;p|d;p|r	CONFIRM	{6, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Z13_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3*y + y^6 + z^2	{5, 3, 9}	-	-	SKIP	-	-	-	-	-	N	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	0
+W12_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^4 + y^5 + z^2	{5, 4, 10}	-	p|w_i	SKIP	-	-	-	-	-	N	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	0
+W13_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^4 + x*y^4 + z^2	{4, 3, 8}	-	p|w_i	SKIP	-	-	-	-	-	N	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	0
+Q10_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3 + y^4 + y*z^2	{8, 6, 9}	24	p|w_i;p|d;p|r	CONFIRM	{2, 9, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Q11_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3 + y^2*z + x*z^3	{6, 7, 4}	18	p|w_i;p|d;p|r	CONFIRM	{7, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Q12_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3 + y^5 + y*z^2	{5, 3, 6}	-	p|w_i	SKIP	-	-	-	-	-	N	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	0
+S11_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^4 + y^2*z + x*z^2	{4, 5, 6}	16	p|w_i;p|d;p|r	CONFIRM	{5, 6, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+S12_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^2*y + y^2*z + x*z^3	{4, 5, 3}	13	p|w_i;p|r	CONFIRM	{4, 5, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+U12_p2	S3 Arnold exceptional unimodal surfaces	2	3	x^3 + y^3 + z^4	{4, 4, 3}	12	p|w_i;p|d;p|r	CONFIRM	{4}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	1
+E12_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3 + y^7 + z^2	{14, 6, 21}	42	p|w_i;p|d;p|r	CONFIRM	{2, 7, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+E13_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3 + x*y^5 + z^2	{10, 4, 15}	30	p|w_i;p|d	CONFIRM	{4, 2, 5}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+E14_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3 + y^8 + z^2	{8, 3, 12}	24	p|w_i;p|d;p|r	CONFIRM	{4, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	3
+Z11_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3*y + y^5 + z^2	{8, 6, 15}	30	p|w_i;p|d;p|r	CONFIRM	{8, 2, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Z12_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3*y + x*y^4 + z^2	{6, 4, 11}	22	p|w_i;p|r	CONFIRM	{6, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Z13_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3*y + y^6 + z^2	{5, 3, 9}	18	p|w_i;p|d;p|r	CONFIRM	{5, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+W12_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^4 + y^5 + z^2	{5, 4, 10}	20	-	CONFIRM	{5, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	3
+W13_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^4 + x*y^4 + z^2	{4, 3, 8}	16	p|w_i;p|r	CONFIRM	{3, 4}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Q10_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3 + y^4 + y*z^2	{8, 6, 9}	24	p|w_i;p|d;p|r	CONFIRM	{2, 9, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+Q11_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3 + y^2*z + x*z^3	{6, 7, 4}	18	p|w_i;p|d	CONFIRM	{7, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	1
+Q12_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3 + y^5 + y*z^2	{5, 3, 6}	15	p|w_i;p|d;p|r	CONFIRM	{6, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	1
+S11_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^4 + y^2*z + x*z^2	{4, 5, 6}	16	p|w_i;p|r	CONFIRM	{5, 6, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+S12_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^2*y + y^2*z + x*z^3	{4, 5, 3}	13	p|w_i;p|r	CONFIRM	{4, 5, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	1
+U12_p3	S3 Arnold exceptional unimodal surfaces	3	3	x^3 + y^3 + z^4	{4, 4, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	0
+E12_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3 + y^7 + z^2	{14, 6, 21}	42	-	CONFIRM	{2, 7, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	3
+E13_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3 + x*y^5 + z^2	{10, 4, 15}	30	p|w_i;p|d;p|r	CONFIRM	{4, 2, 5}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+E14_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3 + y^8 + z^2	{8, 3, 12}	24	-	CONFIRM	{4, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Z11_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3*y + y^5 + z^2	{8, 6, 15}	30	p|w_i;p|d	CONFIRM	{8, 2, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Z12_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3*y + x*y^4 + z^2	{6, 4, 11}	22	-	CONFIRM	{6, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+Z13_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3*y + y^6 + z^2	{5, 3, 9}	18	p|w_i;p|r	CONFIRM	{5, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+W12_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^4 + y^5 + z^2	{5, 4, 10}	20	p|w_i;p|d;p|r	CONFIRM	{5, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+W13_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^4 + x*y^4 + z^2	{4, 3, 8}	16	-	CONFIRM	{3, 4}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	1
+Q10_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3 + y^4 + y*z^2	{8, 6, 9}	24	-	CONFIRM	{2, 9, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Q11_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3 + y^2*z + x*z^3	{6, 7, 4}	18	-	CONFIRM	{7, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Q12_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3 + y^5 + y*z^2	{5, 3, 6}	15	p|w_i;p|d	CONFIRM	{6, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+S11_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^4 + y^2*z + x*z^2	{4, 5, 6}	16	p|w_i;p|r	CONFIRM	{5, 6, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+S12_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^2*y + y^2*z + x*z^3	{4, 5, 3}	13	p|w_i;p|r	CONFIRM	{4, 5, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+U12_p5	S3 Arnold exceptional unimodal surfaces	5	3	x^3 + y^3 + z^4	{4, 4, 3}	12	-	CONFIRM	{4}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+E12_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3 + y^7 + z^2	{14, 6, 21}	42	p|w_i;p|d;p|r	CONFIRM	{2, 7, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	3
+E13_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3 + x*y^5 + z^2	{10, 4, 15}	30	-	CONFIRM	{4, 2, 5}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+E14_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3 + y^8 + z^2	{8, 3, 12}	24	-	CONFIRM	{4, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	3
+Z11_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3*y + y^5 + z^2	{8, 6, 15}	30	-	CONFIRM	{8, 2, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Z12_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3*y + x*y^4 + z^2	{6, 4, 11}	22	-	CONFIRM	{6, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Z13_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3*y + y^6 + z^2	{5, 3, 9}	18	-	CONFIRM	{5, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+W12_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^4 + y^5 + z^2	{5, 4, 10}	20	-	CONFIRM	{5, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+W13_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^4 + x*y^4 + z^2	{4, 3, 8}	16	-	CONFIRM	{3, 4}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Q10_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3 + y^4 + y*z^2	{8, 6, 9}	24	-	CONFIRM	{2, 9, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	3
+Q11_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3 + y^2*z + x*z^3	{6, 7, 4}	18	p|w_i;p|r	CONFIRM	{7, 4, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	ci	2
+Q12_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3 + y^5 + y*z^2	{5, 3, 6}	15	-	CONFIRM	{6, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+S11_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^4 + y^2*z + x*z^2	{4, 5, 6}	16	-	CONFIRM	{5, 6, 2}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+S12_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^2*y + y^2*z + x*z^3	{4, 5, 3}	13	-	CONFIRM	{4, 5, 3}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+U12_p7	S3 Arnold exceptional unimodal surfaces	7	3	x^3 + y^3 + z^4	{4, 4, 3}	12	-	CONFIRM	{4}	4	{1, 1, 1}	-1	0	X	Arnold exceptional unimodal normal form (weights recomputed here)	-	heavy	2
+Et6_p2	S4 simple elliptic surfaces	2	3	x^3 + y^3 + z^3	{1, 1, 1}	3	-	CONFIRM	{}	1	{}	-3	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	ci	0
+Et7_p2	S4 simple elliptic surfaces	2	3	x^4 + y^4 + z^2	{1, 1, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	ci	0
+Et8_p2	S4 simple elliptic surfaces	2	3	x^6 + y^3 + z^2	{1, 2, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	ci	0
+Et6_p3	S4 simple elliptic surfaces	3	3	x^3 + y^3 + z^3	{1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	ci	0
+Et7_p3	S4 simple elliptic surfaces	3	3	x^4 + y^4 + z^2	{1, 1, 2}	4	-	CONFIRM	{}	1	{}	-2	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	ci	0
+Et8_p3	S4 simple elliptic surfaces	3	3	x^6 + y^3 + z^2	{1, 2, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	heavy	0
+Et6_p5	S4 simple elliptic surfaces	5	3	x^3 + y^3 + z^3	{1, 1, 1}	3	-	CONFIRM	{}	1	{}	-3	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	ci	1
+Et7_p5	S4 simple elliptic surfaces	5	3	x^4 + y^4 + z^2	{1, 1, 2}	4	-	CONFIRM	{}	1	{}	-2	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	heavy	1
+Et8_p5	S4 simple elliptic surfaces	5	3	x^6 + y^3 + z^2	{1, 2, 3}	6	-	CONFIRM	{}	1	{}	-1	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	ci	1
+Et6_p7	S4 simple elliptic surfaces	7	3	x^3 + y^3 + z^3	{1, 1, 1}	3	-	CONFIRM	{}	1	{}	-3	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	heavy	1
+Et7_p7	S4 simple elliptic surfaces	7	3	x^4 + y^4 + z^2	{1, 1, 2}	4	-	CONFIRM	{}	1	{}	-2	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	heavy	0
+Et8_p7	S4 simple elliptic surfaces	7	3	x^6 + y^3 + z^2	{1, 2, 3}	6	-	CONFIRM	{}	1	{}	-1	1	L	simple elliptic singularity (classical invariants: genus 1, self-intersection -3,-2,-1 for E~6,E~7,E~8)	-	heavy	1
+BP2222_p2	H3 threefolds	2	4	x^2 + y^2 + z^2 + u^2	{1, 1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2223_p2	H3 threefolds	2	4	x^2 + y^2 + z^2 + u^3	{3, 3, 3, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+BP2224_p2	H3 threefolds	2	4	x^2 + y^2 + z^2 + u^4	{2, 2, 2, 1}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP2225_p2	H3 threefolds	2	4	x^2 + y^2 + z^2 + u^5	{5, 5, 5, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2226_p2	H3 threefolds	2	4	x^2 + y^2 + z^2 + u^6	{3, 3, 3, 1}	-	-	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2233_p2	H3 threefolds	2	4	x^2 + y^2 + z^3 + u^3	{3, 3, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP2234_p2	H3 threefolds	2	4	x^2 + y^2 + z^3 + u^4	{6, 6, 4, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2235_p2	H3 threefolds	2	4	x^2 + y^2 + z^3 + u^5	{15, 15, 10, 6}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2333_p2	H3 threefolds	2	4	x^2 + y^3 + z^3 + u^3	{3, 2, 2, 2}	6	p|w_i;p|d;p|r	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2334_p2	H3 threefolds	2	4	x^2 + y^3 + z^3 + u^4	{6, 4, 4, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP3333_p2	H3 threefolds	2	4	x^3 + y^3 + z^3 + u^3	{1, 1, 1, 1}	3	-	CONFIRM	{}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2222_p3	H3 threefolds	3	4	x^2 + y^2 + z^2 + u^2	{1, 1, 1, 1}	2	-	CONFIRM	{}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2223_p3	H3 threefolds	3	4	x^2 + y^2 + z^2 + u^3	{3, 3, 3, 2}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+BP2224_p3	H3 threefolds	3	4	x^2 + y^2 + z^2 + u^4	{2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	1
+BP2225_p3	H3 threefolds	3	4	x^2 + y^2 + z^2 + u^5	{5, 5, 5, 2}	10	-	CONFIRM	{5, 5, 5, 5}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2226_p3	H3 threefolds	3	4	x^2 + y^2 + z^2 + u^6	{3, 3, 3, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+BP2233_p3	H3 threefolds	3	4	x^2 + y^2 + z^3 + u^3	{3, 3, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2234_p3	H3 threefolds	3	4	x^2 + y^2 + z^3 + u^4	{6, 6, 4, 3}	12	p|w_i;p|d;p|r	CONFIRM	{6, 2, 2, 2, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2235_p3	H3 threefolds	3	4	x^2 + y^2 + z^3 + u^5	{15, 15, 10, 6}	30	p|w_i;p|d;p|r	CONFIRM	{15, 5, 5, 5, 3, 3, 3, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2333_p3	H3 threefolds	3	4	x^2 + y^3 + z^3 + u^3	{3, 2, 2, 2}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+BP2334_p3	H3 threefolds	3	4	x^2 + y^3 + z^3 + u^4	{6, 4, 4, 3}	-	p|w_i	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP3333_p3	H3 threefolds	3	4	x^3 + y^3 + z^3 + u^3	{1, 1, 1, 1}	-	-	SKIP	-	-	-	-	-	N	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2222_p5	H3 threefolds	5	4	x^2 + y^2 + z^2 + u^2	{1, 1, 1, 1}	2	-	CONFIRM	{}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2223_p5	H3 threefolds	5	4	x^2 + y^2 + z^2 + u^3	{3, 3, 3, 2}	6	-	CONFIRM	{3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2224_p5	H3 threefolds	5	4	x^2 + y^2 + z^2 + u^4	{2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2225_p5	H3 threefolds	5	4	x^2 + y^2 + z^2 + u^5	{5, 5, 5, 2}	10	p|w_i;p|d;p|r	CONFIRM	{5, 5, 5, 5}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2226_p5	H3 threefolds	5	4	x^2 + y^2 + z^2 + u^6	{3, 3, 3, 1}	6	-	CONFIRM	{3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2233_p5	H3 threefolds	5	4	x^2 + y^2 + z^3 + u^3	{3, 3, 2, 2}	6	-	CONFIRM	{3, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2234_p5	H3 threefolds	5	4	x^2 + y^2 + z^3 + u^4	{6, 6, 4, 3}	12	-	CONFIRM	{6, 2, 2, 2, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2235_p5	H3 threefolds	5	4	x^2 + y^2 + z^3 + u^5	{15, 15, 10, 6}	30	p|w_i;p|d;p|r	CONFIRM	{15, 5, 5, 5, 3, 3, 3, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2333_p5	H3 threefolds	5	4	x^2 + y^3 + z^3 + u^3	{3, 2, 2, 2}	6	-	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2334_p5	H3 threefolds	5	4	x^2 + y^3 + z^3 + u^4	{6, 4, 4, 3}	12	-	CONFIRM	{2, 2, 4, 2, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+BP3333_p5	H3 threefolds	5	4	x^3 + y^3 + z^3 + u^3	{1, 1, 1, 1}	3	-	CONFIRM	{}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	1
+BP2222_p7	H3 threefolds	7	4	x^2 + y^2 + z^2 + u^2	{1, 1, 1, 1}	2	-	CONFIRM	{}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2223_p7	H3 threefolds	7	4	x^2 + y^2 + z^2 + u^3	{3, 3, 3, 2}	6	-	CONFIRM	{3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2224_p7	H3 threefolds	7	4	x^2 + y^2 + z^2 + u^4	{2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2225_p7	H3 threefolds	7	4	x^2 + y^2 + z^2 + u^5	{5, 5, 5, 2}	10	-	CONFIRM	{5, 5, 5, 5}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+BP2226_p7	H3 threefolds	7	4	x^2 + y^2 + z^2 + u^6	{3, 3, 3, 1}	6	-	CONFIRM	{3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2233_p7	H3 threefolds	7	4	x^2 + y^2 + z^3 + u^3	{3, 3, 2, 2}	6	-	CONFIRM	{3, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP2234_p7	H3 threefolds	7	4	x^2 + y^2 + z^3 + u^4	{6, 6, 4, 3}	12	-	CONFIRM	{6, 2, 2, 2, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2235_p7	H3 threefolds	7	4	x^2 + y^2 + z^3 + u^5	{15, 15, 10, 6}	30	-	CONFIRM	{15, 5, 5, 5, 3, 3, 3, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP2333_p7	H3 threefolds	7	4	x^2 + y^3 + z^3 + u^3	{3, 2, 2, 2}	6	-	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP2334_p7	H3 threefolds	7	4	x^2 + y^3 + z^3 + u^4	{6, 4, 4, 3}	12	-	CONFIRM	{2, 2, 4, 2, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP3333_p7	H3 threefolds	7	4	x^3 + y^3 + z^3 + u^3	{1, 1, 1, 1}	3	-	CONFIRM	{}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+dim3mixed_p3	H3 threefolds	3	4	x^2 + y^2 + z^3 + z*u^4 + u^6	{3, 3, 2, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/dim3mixed_p3.txt	ci	0
+nwf2221_p2	H3 threefolds	2	4	x*y + z^2 + z*u^2 + u^4	{2, 2, 2, 1}	4	p|w_i;p|d;p|r;non-well-formed	CONFIRM	{2, 2, 2}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/nwf2221_p2.txt	ci	0
+nwf2221_p3	H3 threefolds	3	4	x^2 + y^2 + z^2 + u^4	{2, 2, 2, 1}	4	non-well-formed	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	1
+nwf2221_p5	H3 threefolds	5	4	x^2 + y^2 + z^2 + u^4	{2, 2, 2, 1}	4	non-well-formed	CONFIRM	{2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+curvemu3_p3	H3 threefolds	3	4	x^2 + y^2 + z^2 + u^6	{3, 3, 3, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/curvemu3_p3.txt	ci	0
+dim4mixed_p3	H4 fourfolds	3	5	x^2 + y^2 + z^2 + u^3 + u*v^4 + v^6	{3, 3, 3, 2, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/dim4mixed_p3.txt	ci	0
+BP22223_p3	H4 fourfolds	3	5	x^2 + y^2 + z^2 + u^2 + v^3	{3, 3, 3, 3, 2}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP22224_p3	H4 fourfolds	3	5	x^2 + y^2 + z^2 + u^2 + v^4	{2, 2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP22225_p3	H4 fourfolds	3	5	x^2 + y^2 + z^2 + u^2 + v^5	{5, 5, 5, 5, 2}	10	-	CONFIRM	{5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP22226_p3	H4 fourfolds	3	5	x^2 + y^2 + z^2 + u^2 + v^6	{3, 3, 3, 3, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+BP22223_p5	H4 fourfolds	5	5	x^2 + y^2 + z^2 + u^2 + v^3	{3, 3, 3, 3, 2}	6	-	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	1
+BP22224_p5	H4 fourfolds	5	5	x^2 + y^2 + z^2 + u^2 + v^4	{2, 2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP22225_p5	H4 fourfolds	5	5	x^2 + y^2 + z^2 + u^2 + v^5	{5, 5, 5, 5, 2}	10	p|w_i;p|d;p|r	CONFIRM	{5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP22226_p5	H4 fourfolds	5	5	x^2 + y^2 + z^2 + u^2 + v^6	{3, 3, 3, 3, 1}	6	-	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP22223_p7	H4 fourfolds	7	5	x^2 + y^2 + z^2 + u^2 + v^3	{3, 3, 3, 3, 2}	6	-	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP22224_p7	H4 fourfolds	7	5	x^2 + y^2 + z^2 + u^2 + v^4	{2, 2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+BP22225_p7	H4 fourfolds	7	5	x^2 + y^2 + z^2 + u^2 + v^5	{5, 5, 5, 5, 2}	10	-	CONFIRM	{5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP22226_p7	H4 fourfolds	7	5	x^2 + y^2 + z^2 + u^2 + v^6	{3, 3, 3, 3, 1}	6	-	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	0
+surfmu3_p3	H4 fourfolds	3	5	x^2 + y^2 + z^2 + u^2 + v^6	{3, 3, 3, 3, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/surfmu3_p3.txt	ci	0
+BP222223_p3	H5 dimensions 5 and 6	3	6	x^2 + y^2 + z^2 + u^2 + v^2 + s^3	{3, 3, 3, 3, 3, 2}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP222224_p3	H5 dimensions 5 and 6	3	6	x^2 + y^2 + z^2 + u^2 + v^2 + s^4	{2, 2, 2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP222223_p5	H5 dimensions 5 and 6	5	6	x^2 + y^2 + z^2 + u^2 + v^2 + s^3	{3, 3, 3, 3, 3, 2}	6	-	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	1
+BP222224_p5	H5 dimensions 5 and 6	5	6	x^2 + y^2 + z^2 + u^2 + v^2 + s^4	{2, 2, 2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	heavy	1
+BP222223_p7	H5 dimensions 5 and 6	7	6	x^2 + y^2 + z^2 + u^2 + v^2 + s^3	{3, 3, 3, 3, 3, 2}	6	-	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/BP222223_p7.txt	heavy	1
+BP222224_p7	H5 dimensions 5 and 6	7	6	x^2 + y^2 + z^2 + u^2 + v^2 + s^4	{2, 2, 2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	-	-	-	-	O	constructed here (Brieskorn-Pham type or mixed example)	-	ci	0
+dim5mu3_p3	H5 dimensions 5 and 6	3	6	x^2 + y^2 + z^2 + u^2 + v^2 + s^6	{3, 3, 3, 3, 3, 1}	6	p|w_i;p|d;p|r	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/dim5mu3_p3.txt	ci	0
+dim6_p5	H5 dimensions 5 and 6	5	7	x^2 + y^2 + z^2 + u^2 + v^2 + s^2 + t^3	{3, 3, 3, 3, 3, 3, 2}	6	-	CONFIRM	{3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/dim6_p5.txt	ci	2
+dim6mu2_p3	H5 dimensions 5 and 6	3	7	x^2 + y^2 + z^2 + u^2 + v^2 + s^2 + t^4	{2, 2, 2, 2, 2, 2, 1}	4	-	CONFIRM	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	-	-	-	-	OV	constructed here (Brieskorn-Pham type or mixed example)	data/certificates/dim6mu2_p3.txt	ci	1

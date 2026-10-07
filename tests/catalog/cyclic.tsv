@@ -1,0 +1,80 @@
+id	r	q	expected_hj	expected_curves	tier	note
+cyc_2_1	2	1	{2}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_3_1	3	1	{3}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_3_2	3	2	{2, 2}	2	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_4_1	4	1	{4}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_4_3	4	3	{2, 2, 2}	3	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_5_1	5	1	{5}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_5_2	5	2	{3, 2}	2	ci	
+cyc_5_3	5	3	{2, 3}	2	ci	
+cyc_5_4	5	4	{2, 2, 2, 2}	4	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_6_1	6	1	{6}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_6_5	6	5	{2, 2, 2, 2, 2}	5	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_7_1	7	1	{7}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_7_2	7	2	{4, 2}	2	ci	
+cyc_7_3	7	3	{3, 2, 2}	3	ci	
+cyc_7_4	7	4	{2, 4}	2	ci	
+cyc_7_5	7	5	{2, 2, 3}	3	ci	
+cyc_7_6	7	6	{2, 2, 2, 2, 2, 2}	6	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_8_1	8	1	{8}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_8_3	8	3	{3, 3}	2	ci	
+cyc_8_5	8	5	{2, 3, 2}	3	ci	
+cyc_8_7	8	7	{2, 2, 2, 2, 2, 2, 2}	7	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_9_1	9	1	{9}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_9_2	9	2	{5, 2}	2	ci	
+cyc_9_4	9	4	{3, 2, 2, 2}	4	ci	
+cyc_9_5	9	5	{2, 5}	2	ci	
+cyc_9_7	9	7	{2, 2, 2, 3}	4	ci	
+cyc_9_8	9	8	{2, 2, 2, 2, 2, 2, 2, 2}	8	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_10_1	10	1	{10}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_10_3	10	3	{4, 2, 2}	3	ci	
+cyc_10_7	10	7	{2, 2, 4}	3	ci	
+cyc_10_9	10	9	{2, 2, 2, 2, 2, 2, 2, 2, 2}	9	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_11_1	11	1	{11}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_11_2	11	2	{6, 2}	2	ci	
+cyc_11_3	11	3	{4, 3}	2	ci	
+cyc_11_4	11	4	{3, 4}	2	ci	
+cyc_11_5	11	5	{3, 2, 2, 2, 2}	5	ci	
+cyc_11_6	11	6	{2, 6}	2	ci	
+cyc_11_7	11	7	{2, 3, 2, 2}	4	ci	
+cyc_11_8	11	8	{2, 2, 3, 2}	4	ci	
+cyc_11_9	11	9	{2, 2, 2, 2, 3}	5	ci	
+cyc_11_10	11	10	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	10	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_12_1	12	1	{12}	1	ci	1/r(1,1): one curve of self-intersection -r
+cyc_12_5	12	5	{3, 2, 3}	3	ci	
+cyc_12_7	12	7	{2, 4, 2}	3	ci	
+cyc_12_11	12	11	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	11	ci	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_13_1	13	1	{13}	1	heavy	1/r(1,1): one curve of self-intersection -r
+cyc_13_2	13	2	{7, 2}	2	heavy	
+cyc_13_3	13	3	{5, 2, 2}	3	heavy	
+cyc_13_4	13	4	{4, 2, 2, 2}	4	heavy	
+cyc_13_5	13	5	{3, 3, 2}	3	heavy	
+cyc_13_6	13	6	{3, 2, 2, 2, 2, 2}	6	heavy	
+cyc_13_7	13	7	{2, 7}	2	heavy	
+cyc_13_8	13	8	{2, 3, 3}	3	heavy	
+cyc_13_9	13	9	{2, 2, 5}	3	heavy	
+cyc_13_10	13	10	{2, 2, 2, 4}	4	heavy	
+cyc_13_11	13	11	{2, 2, 2, 2, 2, 3}	6	heavy	
+cyc_13_12	13	12	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	12	heavy	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_14_1	14	1	{14}	1	heavy	1/r(1,1): one curve of self-intersection -r
+cyc_14_3	14	3	{5, 3}	2	heavy	
+cyc_14_5	14	5	{3, 5}	2	heavy	
+cyc_14_9	14	9	{2, 3, 2, 2, 2}	5	heavy	
+cyc_14_11	14	11	{2, 2, 2, 3, 2}	5	heavy	
+cyc_14_13	14	13	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	13	heavy	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_15_1	15	1	{15}	1	heavy	1/r(1,1): one curve of self-intersection -r
+cyc_15_2	15	2	{8, 2}	2	heavy	
+cyc_15_4	15	4	{4, 4}	2	heavy	
+cyc_15_7	15	7	{3, 2, 2, 2, 2, 2, 2}	7	heavy	
+cyc_15_8	15	8	{2, 8}	2	heavy	
+cyc_15_11	15	11	{2, 2, 3, 2, 2}	5	heavy	
+cyc_15_13	15	13	{2, 2, 2, 2, 2, 2, 3}	7	heavy	
+cyc_15_14	15	14	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	14	heavy	A_{r-1}: chain of r-1 curves of self-intersection -2
+cyc_16_1	16	1	{16}	1	heavy	1/r(1,1): one curve of self-intersection -r
+cyc_16_3	16	3	{6, 2, 2}	3	heavy	
+cyc_16_5	16	5	{4, 2, 2, 2, 2}	5	heavy	
+cyc_16_7	16	7	{3, 2, 2, 3}	4	heavy	
+cyc_16_9	16	9	{2, 5, 2}	3	heavy	
+cyc_16_11	16	11	{2, 2, 6}	3	heavy	
+cyc_16_13	16	13	{2, 2, 2, 2, 4}	5	heavy	
+cyc_16_15	16	15	{2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2}	15	heavy	A_{r-1}: chain of r-1 curves of self-intersection -2

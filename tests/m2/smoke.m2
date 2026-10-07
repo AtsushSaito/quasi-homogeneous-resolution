@@ -1,0 +1,23 @@
+load(currentFileDirectory | "../../src/StackyFan.m2")
+F = stackyFan({{1,0},{1,3}}, {1,1}, {{0,1}});
+assert(multSF(F, {0,1}) == 3);
+<< "mult = " << multSF(F, {0,1}) << "   (expect 3)" << endl;
+<< "parallelotope = " << parallelotopeSF(F, {0,1}) << endl;
+<< "interior = " << interiorPointsSF(F, {0,1}) << endl;
+G = basicToricStackyFan(2, {1,1});
+assert(multSF(G, {0,1}) == 2);
+<< "1/2(1,1): rays = " << G#"rays" << " labels = " << G#"labels" << " mult = " << multSF(G, {0,1}) << "  (expect 2)" << endl;
+H = basicToricStackyFan(2, {1,0});
+assert(multSF(H, {0,1}) == 1);
+<< "1/2(1,0): rays = " << H#"rays" << " labels = " << H#"labels" << " mult = " << multSF(H, {0,1}) << "  (expect 1, label 2)" << endl;
+K = basicToricStackyFan(5, {1,2});
+assert(multSF(K, {0,1}) == 5);
+<< "1/5(1,2): rays = " << K#"rays" << " labels = " << K#"labels" << " mult = " << multSF(K, {0,1}) << "  (expect 5)" << endl;
+<< "hj(5,2) = " << hjChainSF(5,2) << ",  hj(7,3) = " << hjChainSF(7,3) << ",  hj(3,2) = " << hjChainSF(3,2) << endl;
+<< "--- algorithmB on 1/5(1,2)" << endl;
+algorithmB(K, Verbose => true);
+<< "rays now = " << K#"rays" << endl << "labels = " << K#"labels" << endl << "maxCones = " << K#"maxCones" << endl;
+<< "smooth = " << isSmoothSF K << endl;
+(path, interior, bs) = chainSF K;
+<< "chain b's = " << bs << "   (expect: after contracting the (-1)-curves, the reverse of hj(5,2) = {3,2}, because basicToricStackyFan presents the inverse type)" << endl;
+assert(isSmoothSF K and minimalizeChain bs == reverse hjChainSF(5,2) and minimalizeChain bs == {2,3});
