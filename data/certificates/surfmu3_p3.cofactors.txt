@@ -1,0 +1,171 @@
+Unit-ideal certificates for surfmu3_p3
+characteristic 3
+Each block lists generators h_i and cofactors g_i with sum_i g_i h_i = 1.
+
+cone {0, 1, 2, 3, 5}  [smoothness]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_3^2+1, -yy_0, -yy_1, -yy_2, -yy_3, 0}
+  g = {1, yy_0, yy_1, yy_2, yy_3, 0}
+
+cone {0, 1, 2, 4, 6}  [smoothness]
+  h = {yy_3^6*yy_4^4+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0, yy_3^6*yy_4^3}
+  g = {1, yy_0, yy_1, yy_2, 0, -yy_4}
+
+cone {0, 1, 2, 5, 7}  [smoothness]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, 0, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {0, 1, 2, 6, 7}  [smoothness]
+  h = {yy_3^4*yy_4^2+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, yy_3^3*yy_4^2, -yy_3^4*yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {0, 1, 3, 4, 6}  [smoothness]
+  h = {yy_3^6*yy_4^4+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0, yy_3^6*yy_4^3}
+  g = {1, yy_0, yy_1, yy_2, 0, -yy_4}
+
+cone {0, 1, 3, 5, 7}  [smoothness]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, 0, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {0, 1, 3, 6, 7}  [smoothness]
+  h = {yy_3^4*yy_4^2+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, yy_3^3*yy_4^2, -yy_3^4*yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {0, 2, 3, 4, 6}  [smoothness]
+  h = {yy_3^6*yy_4^4+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0, yy_3^6*yy_4^3}
+  g = {1, yy_0, yy_1, yy_2, 0, -yy_4}
+
+cone {0, 2, 3, 5, 7}  [smoothness]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, 0, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {0, 2, 3, 6, 7}  [smoothness]
+  h = {yy_3^4*yy_4^2+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, yy_3^3*yy_4^2, -yy_3^4*yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {1, 2, 3, 4, 6}  [smoothness]
+  h = {yy_3^6*yy_4^4+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0, yy_3^6*yy_4^3}
+  g = {1, yy_0, yy_1, yy_2, 0, -yy_4}
+
+cone {1, 2, 3, 5, 7}  [smoothness]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, 0, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {1, 2, 3, 6, 7}  [smoothness]
+  h = {yy_3^4*yy_4^2+yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, yy_3^3*yy_4^2, -yy_3^4*yy_4}
+  g = {1, yy_0, yy_1, yy_2, 0, yy_4}
+
+cone {0, 1, 2, 3, 5}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_3^2+1, -yy_0, -yy_1, -yy_2, -yy_3}
+  g = {1, yy_0, yy_1, yy_2, yy_3}
+
+cone {0, 1, 2, 4, 6}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 2, 5, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, yy_4}
+
+cone {0, 1, 2, 5, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 2, 5, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}
+
+cone {0, 1, 2, 6, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 2, 6, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 2, 6, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}
+
+cone {0, 1, 3, 4, 6}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 3, 5, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, yy_4}
+
+cone {0, 1, 3, 5, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 3, 5, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}
+
+cone {0, 1, 3, 6, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 3, 6, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 1, 3, 6, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}
+
+cone {0, 2, 3, 4, 6}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 2, 3, 5, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, yy_4}
+
+cone {0, 2, 3, 5, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 2, 3, 5, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}
+
+cone {0, 2, 3, 6, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 2, 3, 6, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {0, 2, 3, 6, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}
+
+cone {1, 2, 3, 4, 6}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {1, 2, 3, 5, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+yy_4^2+1, -yy_0, -yy_1, -yy_2, -yy_4}
+  g = {1, yy_0, yy_1, yy_2, yy_4}
+
+cone {1, 2, 3, 5, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {1, 2, 3, 5, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}
+
+cone {1, 2, 3, 6, 7}  [snc {3}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {1, 2, 3, 6, 7}  [snc {4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2, 0}
+  g = {1, yy_0, yy_1, yy_2, 0}
+
+cone {1, 2, 3, 6, 7}  [snc {3, 4}]
+  h = {yy_0^2+yy_1^2+yy_2^2+1, -yy_0, -yy_1, -yy_2}
+  g = {1, yy_0, yy_1, yy_2}

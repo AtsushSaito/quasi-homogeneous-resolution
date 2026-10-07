@@ -1,0 +1,18 @@
+X = Spec F_2[{x, y, z, u}]/(u^4+z*u^2+x*y+z^2),  weights {2, 2, 2, 1},  dim X = 3
+(0) A4  X is smooth over k away from the vertex: dim V(f, df) = 0  ->  true
+(1) T is a smooth toric variety: 6 rays, 7 maximal cones, all determinants +-1 -> true
+(2) T -> A^n is proper: the fan refines the orthant (exact combinatorial test) -> true
+      maximal cones all of dimension n: true
+      all rays in the closed orthant: true
+      every e_i is a ray: true
+      boundary walls in exactly one maximal cone: 4 walls, 0 violations
+      interior walls in exactly two maximal cones: 12 walls, 0 violations
+      dual graph connected: true
+(3) T -> A^n is an isomorphism off the origin: added rays {{2, 2, 2, 1}, {1, 1, 1, 1}} all interior -> true
+(4) the strict transform X~ is smooth in every chart: 7 charts, 0 singular -> true
+    exceptional divisors meeting X~: 2
+(5) the exceptional locus is a simple normal crossings divisor on X~: X~ meets every toric
+    stratum transversally -- non-transverse strata 0, strata contained in X~ 0 -> true
+(6) every smoothness and SNC claim above comes with an explicit unit-ideal certificate:
+    20 identities of the form  sum_i g_i h_i = 1,  verified by expansion
+VERDICT: X~ -> X is a resolution of singularities in the STRONG classical sense: X~ smooth, the map proper and birational, an isomorphism over X minus the vertex, and the exceptional locus a simple normal crossings divisor. No resolution theorem was cited; the one result used is the properness criterion for toric morphisms (Cox-Little-Schenck, Theorem 3.4.11), applied through check (2).

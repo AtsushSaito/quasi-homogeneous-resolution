@@ -1,0 +1,11 @@
+produced-by: scripts/projectivity_exact.py (exact rational simplex)
+Strictly concave support function proving that pi is projective.
+phi(x) = min over maximal cones sigma of <m_sigma, x>, where m_sigma interpolates the
+heights below on the rays of sigma.  Found by an exact rational simplex (Bland's rule,
+no floating point) and verified exactly: for every maximal cone sigma and every ray v
+not in sigma, <m_sigma, v> - a_v > 0.
+
+rays    = [[1, 0, 0], [0, 1, 0], [0, 0, 1], [4, 3, 6], [2, 1, 2], [1, 1, 1], [2, 2, 3], [1, 1, 2], [3, 2, 4]]
+heights = ['0', '0', '0', '45', '16', '10', '23', '12', '31']
+
+78 strict inequalities checked, minimum margin 1

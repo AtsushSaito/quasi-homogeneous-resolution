@@ -1,0 +1,251 @@
+Unit-ideal certificates for E60_p2
+characteristic 2
+Each block lists generators h_i and cofactors g_i with sum_i g_i h_i = 1.
+
+cone {0, 1, 5}  [smoothness]
+  h = {yy_0^3*yy_2+yy_1^2*yy_2+1, yy_0^2*yy_2, 0, yy_0^3+yy_1^2}
+  g = {1, 0, 0, yy_2}
+
+cone {0, 2, 4}  [smoothness]
+  h = {yy_0^3*yy_2^2+yy_1^2+yy_1, yy_0^2*yy_2^2, 1, 0}
+  g = {0, 0, 1, 0}
+
+cone {0, 4, 5}  [smoothness]
+  h = {yy_0^3*yy_1^2*yy_2+yy_2+1, yy_0^2*yy_1^2*yy_2, 0, yy_0^3*yy_1^2+1}
+  g = {1, yy_0^4*yy_1^2+yy_0, 0, yy_0^3*yy_1^2*yy_2+yy_2}
+
+cone {1, 2, 7}  [smoothness]
+  h = {yy_0^2*yy_1*yy_2+yy_1^2*yy_2+1, 0, yy_0^2*yy_2, yy_0^2*yy_1+yy_1^2}
+  g = {1, 0, 0, yy_2}
+
+cone {1, 5, 6}  [smoothness]
+  h = {yy_0^2*yy_1*yy_2+yy_1+1, 0, yy_0^2*yy_2+1, yy_0^2*yy_1}
+  g = {1, 0, yy_0^2*yy_1*yy_2+yy_1, yy_0^2*yy_2^2+yy_2}
+
+cone {1, 6, 7}  [smoothness]
+  h = {yy_0^2*yy_1*yy_2+yy_2+1, 0, yy_0^2*yy_2, yy_0^2*yy_1+1}
+  g = {1, 0, yy_0^2*yy_1^2+yy_1, yy_0^2*yy_1*yy_2+yy_2}
+
+cone {2, 3, 7}  [smoothness]
+  h = {yy_0^2*yy_2+yy_0*yy_2+1, yy_2, 0, yy_0^2+yy_0}
+  g = {1, yy_0^2+yy_0, 0, 0}
+
+cone {2, 3, 8}  [smoothness]
+  h = {yy_0^2+yy_0+yy_2, 1, 0, 1}
+  g = {0, 1, 0, 0}
+
+cone {2, 4, 8}  [smoothness]
+  h = {yy_1^2*yy_2+yy_0^2+yy_0, 1, 0, yy_1^2}
+  g = {0, 1, 0, 0}
+
+cone {3, 5, 6}  [smoothness]
+  h = {yy_1*yy_2+yy_1+1, 0, yy_2+1, yy_1}
+  g = {1, 0, 0, yy_2+1}
+
+cone {3, 5, 8}  [smoothness]
+  h = {yy_1*yy_2+yy_1+1, 0, yy_2+1, yy_1}
+  g = {1, 0, 0, yy_2+1}
+
+cone {3, 6, 7}  [smoothness]
+  h = {yy_1*yy_2+yy_2+1, 0, yy_2, yy_1+1}
+  g = {1, 0, yy_1+1, 0}
+
+cone {4, 5, 8}  [smoothness]
+  h = {yy_0^2*yy_1*yy_2+yy_1+1, 0, yy_0^2*yy_2+1, yy_0^2*yy_1}
+  g = {1, 0, yy_0^2*yy_1*yy_2+yy_1, yy_0^2*yy_2^2+yy_2}
+
+cone {0, 1, 5}  [snc {2}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {0, 2, 4}  [snc {2}]
+  h = {yy_1^2+yy_1, 0, 1}
+  g = {0, 0, 1}
+
+cone {0, 4, 5}  [snc {1}]
+  h = {yy_2+1, 0, 1}
+  g = {0, 0, 1}
+
+cone {0, 4, 5}  [snc {2}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {0, 4, 5}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {1, 2, 7}  [snc {2}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {1, 5, 6}  [snc {1}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {1, 5, 6}  [snc {2}]
+  h = {yy_1+1, 0, 1}
+  g = {0, 0, 1}
+
+cone {1, 5, 6}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {1, 6, 7}  [snc {1}]
+  h = {yy_2+1, 0, 1}
+  g = {0, 0, 1}
+
+cone {1, 6, 7}  [snc {2}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {1, 6, 7}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {2, 3, 7}  [snc {1}]
+  h = {yy_0^2*yy_2+yy_0*yy_2+1, yy_2, yy_0^2+yy_0}
+  g = {1, yy_0^2+yy_0, 0}
+
+cone {2, 3, 7}  [snc {2}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {2, 3, 7}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {2, 3, 8}  [snc {1}]
+  h = {yy_0^2+yy_0+yy_2, 1, 1}
+  g = {0, 1, 0}
+
+cone {2, 3, 8}  [snc {2}]
+  h = {yy_0^2+yy_0, 1, 0}
+  g = {0, 1, 0}
+
+cone {2, 3, 8}  [snc {1, 2}]
+  h = {yy_0^2+yy_0, 1}
+  g = {0, 1}
+
+cone {2, 4, 8}  [snc {1}]
+  h = {yy_0^2+yy_0, 1, 0}
+  g = {0, 1, 0}
+
+cone {2, 4, 8}  [snc {2}]
+  h = {yy_0^2+yy_0, 1, 0}
+  g = {0, 1, 0}
+
+cone {2, 4, 8}  [snc {1, 2}]
+  h = {yy_0^2+yy_0, 1}
+  g = {0, 1}
+
+cone {3, 5, 6}  [snc {0}]
+  h = {yy_1*yy_2+yy_1+1, yy_2+1, yy_1}
+  g = {1, 0, yy_2+1}
+
+cone {3, 5, 6}  [snc {1}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {3, 5, 6}  [snc {0, 1}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {3, 5, 6}  [snc {2}]
+  h = {yy_1+1, 0, 1}
+  g = {0, 0, 1}
+
+cone {3, 5, 6}  [snc {0, 2}]
+  h = {yy_1+1, 1}
+  g = {0, 1}
+
+cone {3, 5, 6}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {3, 5, 6}  [snc {0, 1, 2}]
+  h = {1}
+  g = {1}
+
+cone {3, 5, 8}  [snc {0}]
+  h = {yy_1*yy_2+yy_1+1, yy_2+1, yy_1}
+  g = {1, 0, yy_2+1}
+
+cone {3, 5, 8}  [snc {1}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {3, 5, 8}  [snc {0, 1}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {3, 5, 8}  [snc {2}]
+  h = {yy_1+1, 0, 1}
+  g = {0, 0, 1}
+
+cone {3, 5, 8}  [snc {0, 2}]
+  h = {yy_1+1, 1}
+  g = {0, 1}
+
+cone {3, 5, 8}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {3, 5, 8}  [snc {0, 1, 2}]
+  h = {1}
+  g = {1}
+
+cone {3, 6, 7}  [snc {0}]
+  h = {yy_1*yy_2+yy_2+1, yy_2, yy_1+1}
+  g = {1, yy_1+1, 0}
+
+cone {3, 6, 7}  [snc {1}]
+  h = {yy_2+1, 0, 1}
+  g = {0, 0, 1}
+
+cone {3, 6, 7}  [snc {0, 1}]
+  h = {yy_2+1, 1}
+  g = {0, 1}
+
+cone {3, 6, 7}  [snc {2}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {3, 6, 7}  [snc {0, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {3, 6, 7}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {3, 6, 7}  [snc {0, 1, 2}]
+  h = {1}
+  g = {1}
+
+cone {4, 5, 8}  [snc {0}]
+  h = {yy_1+1, 1, 0}
+  g = {0, 1, 0}
+
+cone {4, 5, 8}  [snc {1}]
+  h = {1, 0, 0}
+  g = {1, 0, 0}
+
+cone {4, 5, 8}  [snc {0, 1}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {4, 5, 8}  [snc {2}]
+  h = {yy_1+1, 0, 1}
+  g = {0, 0, 1}
+
+cone {4, 5, 8}  [snc {0, 2}]
+  h = {yy_1+1, 1}
+  g = {0, 1}
+
+cone {4, 5, 8}  [snc {1, 2}]
+  h = {1, 0}
+  g = {1, 0}
+
+cone {4, 5, 8}  [snc {0, 1, 2}]
+  h = {1}
+  g = {1}

@@ -1,0 +1,18 @@
+X = Spec F_2[{x, y, z}]/(y^5+x^3+z^2),  weights {10, 6, 15},  dim X = 2
+(0) A4  X is smooth over k away from the vertex: dim V(f, df) = 0  ->  true
+(1) T is a smooth toric variety: 18 rays, 31 maximal cones, all determinants +-1 -> true
+(2) T -> A^n is proper: the fan refines the orthant (exact combinatorial test) -> true
+      maximal cones all of dimension n: true
+      all rays in the closed orthant: true
+      every e_i is a ray: true
+      boundary walls in exactly one maximal cone: 3 walls, 0 violations
+      interior walls in exactly two maximal cones: 45 walls, 0 violations
+      dual graph connected: true
+(3) T -> A^n is an isomorphism off the origin: added rays {{10, 6, 15}, {4, 2, 5}, {1, 1, 1}, {2, 1, 3}, {2, 1, 2}, {2, 2, 3}, {1, 1, 2}, {3, 2, 4}, {5, 3, 8}, {3, 2, 5}, {7, 4, 10}, {4, 3, 6}, {6, 4, 9}, {8, 5, 12}, {5, 3, 7}} all interior -> true
+(4) the strict transform X~ is smooth in every chart: 31 charts, 0 singular -> true
+    exceptional divisors meeting X~: 8
+(5) the exceptional locus is a simple normal crossings divisor on X~: X~ meets every toric
+    stratum transversally -- non-transverse strata 0, strata contained in X~ 0 -> true
+(6) every smoothness and SNC claim above comes with an explicit unit-ideal certificate:
+    190 identities of the form  sum_i g_i h_i = 1,  verified by expansion
+VERDICT: X~ -> X is a resolution of singularities in the STRONG classical sense: X~ smooth, the map proper and birational, an isomorphism over X minus the vertex, and the exceptional locus a simple normal crossings divisor. No resolution theorem was cited; the one result used is the properness criterion for toric morphisms (Cox-Little-Schenck, Theorem 3.4.11), applied through check (2).

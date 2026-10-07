@@ -1,0 +1,83 @@
+Unit-ideal certificates for nwf2221_p2
+characteristic 2
+Each block lists generators h_i and cofactors g_i with sum_i g_i h_i = 1.
+
+cone {0, 1, 2, 4}  [smoothness]
+  h = {yy_0*yy_1+yy_2^2+yy_2+1, yy_1, yy_0, 1, 0}
+  g = {0, 0, 0, 1, 0}
+
+cone {0, 1, 3, 5}  [smoothness]
+  h = {yy_2^4*yy_3^2+yy_2^2*yy_3+yy_0*yy_1+1, yy_1, yy_0, 0, yy_2^2}
+  g = {1, 0, yy_1, 0, yy_2^2*yy_3^2+yy_3}
+
+cone {0, 1, 4, 5}  [smoothness]
+  h = {yy_0*yy_1+yy_3^2+yy_3+1, yy_1, yy_0, 0, 1}
+  g = {0, 0, 0, 0, 1}
+
+cone {0, 2, 3, 5}  [smoothness]
+  h = {yy_2^4*yy_3^2+yy_1*yy_2^2*yy_3+yy_1^2+yy_0, 1, yy_2^2*yy_3, 0, yy_1*yy_2^2}
+  g = {0, 1, 0, 0, 0}
+
+cone {0, 2, 4, 5}  [smoothness]
+  h = {yy_1^2+yy_1*yy_3+yy_3^2+yy_0, 1, yy_3, 0, yy_1}
+  g = {0, 1, 0, 0, 0}
+
+cone {1, 2, 3, 5}  [smoothness]
+  h = {yy_2^4*yy_3^2+yy_1*yy_2^2*yy_3+yy_1^2+yy_0, 1, yy_2^2*yy_3, 0, yy_1*yy_2^2}
+  g = {0, 1, 0, 0, 0}
+
+cone {1, 2, 4, 5}  [smoothness]
+  h = {yy_1^2+yy_1*yy_3+yy_3^2+yy_0, 1, yy_3, 0, yy_1}
+  g = {0, 1, 0, 0, 0}
+
+cone {0, 1, 2, 4}  [snc {3}]
+  h = {yy_0*yy_1+yy_2^2+yy_2+1, yy_1, yy_0, 1}
+  g = {0, 0, 0, 1}
+
+cone {0, 1, 3, 5}  [snc {3}]
+  h = {yy_0*yy_1+1, yy_1, yy_0, 0}
+  g = {1, 0, yy_1, 0}
+
+cone {0, 1, 4, 5}  [snc {2}]
+  h = {yy_0*yy_1+yy_3^2+yy_3+1, yy_1, yy_0, 1}
+  g = {0, 0, 0, 1}
+
+cone {0, 1, 4, 5}  [snc {3}]
+  h = {yy_0*yy_1+1, yy_1, yy_0, 0}
+  g = {1, 0, yy_1, 0}
+
+cone {0, 1, 4, 5}  [snc {2, 3}]
+  h = {yy_0*yy_1+1, yy_1, yy_0}
+  g = {1, 0, yy_1}
+
+cone {0, 2, 3, 5}  [snc {3}]
+  h = {yy_1^2+yy_0, 1, 0, 0}
+  g = {0, 1, 0, 0}
+
+cone {0, 2, 4, 5}  [snc {2}]
+  h = {yy_1^2+yy_1*yy_3+yy_3^2+yy_0, 1, yy_3, yy_1}
+  g = {0, 1, 0, 0}
+
+cone {0, 2, 4, 5}  [snc {3}]
+  h = {yy_1^2+yy_0, 1, 0, 0}
+  g = {0, 1, 0, 0}
+
+cone {0, 2, 4, 5}  [snc {2, 3}]
+  h = {yy_1^2+yy_0, 1, 0}
+  g = {0, 1, 0}
+
+cone {1, 2, 3, 5}  [snc {3}]
+  h = {yy_1^2+yy_0, 1, 0, 0}
+  g = {0, 1, 0, 0}
+
+cone {1, 2, 4, 5}  [snc {2}]
+  h = {yy_1^2+yy_1*yy_3+yy_3^2+yy_0, 1, yy_3, yy_1}
+  g = {0, 1, 0, 0}
+
+cone {1, 2, 4, 5}  [snc {3}]
+  h = {yy_1^2+yy_0, 1, 0, 0}
+  g = {0, 1, 0, 0}
+
+cone {1, 2, 4, 5}  [snc {2, 3}]
+  h = {yy_1^2+yy_0, 1, 0}
+  g = {0, 1, 0}
