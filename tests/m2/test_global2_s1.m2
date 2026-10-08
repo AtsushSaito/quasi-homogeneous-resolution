@@ -3,8 +3,9 @@
 --   G2_SET=confirm M2 --script tests/m2/test_global2_s1.m2        all 361 CONFIRM samples (+ the SKIP ones are
 --                                                                 checked for homogeneity only with G2_SET=all)
 --   G2_ONLY=E8_p2,D4_p3 M2 --script ...                           selected samples
--- Expected values below are derived by hand from the definition (chart x_i = 1, A = Z/w_i, deg x_j = w_j,
--- deg s = -1, divisor E = (s)); the catalog/qhReport data are the independent side of the strata check.
+-- Cone atlas (decision: cone charts).  Expected values below are derived by hand from the definition
+-- (chart k[x_0..x_{n-1}, s, x_i'] / (f, x_i x_i' - 1), A = Z, deg x_j = w_j, deg s = -1, deg x_i' = -w_i,
+-- divisor E = (s)); the catalog/qhReport data are the independent side of the strata check.
 root = currentFileDirectory | "../../";
 load(root | "src/corpus.m2"); load(root | "src/qh.m2");
 load(root | "src/global2/charts.m2"); load(root | "src/global2/sample.m2");
@@ -18,27 +19,27 @@ f = z^2 + x^3 + y^5;
 cs = yCharts(f, {10,6,15});
 ok("three charts", #cs == 3);
 ok("orders N = w_i", apply(cs, C -> C#"N") == {10, 6, 15});
-ok("A = Z/w_i: relation matrix", apply(cs, C -> C#"L") == apply({10,6,15}, a -> matrix{{a}}));
-ok("degrees of variables, chart x", cs#0#"degs" == {{6},{15},{-1}});
-ok("degrees of variables, chart y", cs#1#"degs" == {{10},{15},{-1}});
-ok("degrees of variables, chart z", cs#2#"degs" == {{10},{6},{-1}});
-ok("each chart has n variables (n-1 coordinates and s)", all(cs, C -> numgens C#"ring" == 3));
-ok("divisor E = (s), s the last variable", all(cs, C -> #C#"divisors" == 1 and (first C#"divisors")#0 == "E" and (first C#"divisors")#1 == last gens C#"ring"));
-ok("chart x: equation z^2 + y^5 + 1", (
+ok("A = Z: no relations", all(cs, C -> C#"L" == 0));
+ok("degrees of variables, chart x", cs#0#"degs" == {{10},{6},{15},{-1},{-10}});
+ok("degrees of variables, chart y", cs#1#"degs" == {{10},{6},{15},{-1},{-6}});
+ok("degrees of variables, chart z", cs#2#"degs" == {{10},{6},{15},{-1},{-15}});
+ok("each chart has n + 2 variables (x_0..x_{n-1}, s, x_i')", all(cs, C -> numgens C#"ring" == 5));
+ok("divisor E = (s), s = yy_n", all(cs, C -> #C#"divisors" == 1 and (first C#"divisors")#0 == "E" and (first C#"divisors")#1 == (C#"ring")_3));
+ok("chart x: ideal (z^2 + x^3 + y^5, x x' - 1)", (
     Rc := cs#0#"ring";
-    cs#0#"I" == ideal(Rc_1^2 + Rc_0^5 + 1_Rc)));
+    cs#0#"I" == ideal(Rc_2^2 + Rc_0^3 + Rc_1^5, Rc_0*Rc_4 - 1_Rc)));
 ok("the ideal of every chart is homogeneous", all(cs, chartHomogeneousIdeal));
--- chart x (N = 10): s^10 + y^5 is homogeneous of degree 0 (s has degree -1: -10 = 0; y^5: 30 = 0), s^9 + y^5 is not (-9 vs 0)
-ok("chartHomogeneous accepts s^10 + y^5", chartHomogeneous(cs#0, (cs#0#"ring")_2^10 + (cs#0#"ring")_0^5));
-ok("chartHomogeneous rejects s^9 + y^5", not chartHomogeneous(cs#0, (cs#0#"ring")_2^9 + (cs#0#"ring")_0^5));
-ok("chartHomogeneous rejects y + 1 (6 is not 0 mod 10)", not chartHomogeneous(cs#0, (cs#0#"ring")_0 + 1));
+-- Z-grading, chart x: s^10 x^... : deg(s^10 x) = -10 + 10 = 0 is homogeneous of degree 0; s^9 + y has degrees -9 and 6
+ok("chartHomogeneous accepts s^10 x + 1 (degrees 0 and 0)", chartHomogeneous(cs#0, (cs#0#"ring")_3^10 * (cs#0#"ring")_0 + 1));
+ok("chartHomogeneous rejects s^9 + y^5", not chartHomogeneous(cs#0, (cs#0#"ring")_3^9 + (cs#0#"ring")_1^5));
+ok("chartHomogeneous rejects y + 1 (6 != 0)", not chartHomogeneous(cs#0, (cs#0#"ring")_1 + 1));
 ok("zero is homogeneous", chartHomogeneous(cs#0, 0_(cs#0#"ring")));
 ok("the chart variables are called yy", all(cs, C -> all(gens C#"ring", v -> match("^yy", toString v))));
 
--- weights (1,1,1): A = Z/1 is trivial, every element is homogeneous
+-- weights (1,1,1): the grading group is Z, so x + 1 is not homogeneous
 R = ZZ/3[x,y,z];
 cs1 = yCharts(x^3 + y^3 + z^3, {1,1,1});
-ok("trivial group: everything homogeneous", all(cs1, C -> chartHomogeneous(C, (C#"ring")_0 + 1)));
+ok("weights 1: x + 1 is not homogeneous for A = Z", not chartHomogeneous(cs1#0, (cs1#0#"ring")_0 + 1));
 
 -- ---------------------------------------------------------------- invalid input: errors and verdicts
 R = QQ[x,y,z];

@@ -26,7 +26,7 @@ ok("no reduced chart: flagged", chartPreference({0,1}, {4,4}, 2, 2) == ({0,1}, t
 -- r=3 at K={y,z}: {1,2} (A_2);  r=5 at K={x,z}: {1,4} (A_4).
 R = ZZ/2[x,y,z]; f = z^2 + x^3 + y^5; w = {10,6,15};
 rep = qhReport(f, w); pr = qhPredict(f, w, rep);
-cs = yCharts(f, w);
+cs = ySliceCharts(f, w);
 expect = hashTable {{0,1} => ({1,1}, 0), {0,2} => ({1,4}, 2), {1,2} => ({1,2}, 2)};   -- K => (characters, chart)
 for q in pr#"strata" do (
     e := eigenCoordsForStratum(cs, q);
@@ -54,7 +54,7 @@ nSamples = 0; nStrata = 0; nFlag = 0; flagged = {}; mismatches = {}; nPdivChart 
 for row in rowsC do (
     s := sampleOf row#"id"; f := s#"f"; w := s#"w";
     rep := qhReport(f, w); pr := qhPredict(f, w, rep);
-    charts := yCharts(f, w);
+    charts := ySliceCharts(f, w);
     for q in pr#"strata" do (
         nStrata = nStrata + 1;
         e := eigenCoordsForStratum(charts, q);
