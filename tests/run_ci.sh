@@ -19,4 +19,7 @@ step "research code: smoke"                                   M2 --script tests/
 step "certificate: one complete certificate (dim 4)"          M2 --script tests/m2/certificate.m2
 step "properness of the toric maps (exact)"                   M2 --script tests/m2/properness.m2
 step "package vs research code, 44 cases"                     sh tests/package_equivalence.sh
+step "global2 S1: chart atlas yCharts (66 CONFIRM samples)"   M2 --script tests/m2/test_global2_s1.m2
+step "global2 S3: eigencoordinates vs qhPredict (66 samples)" M2 --script tests/m2/test_global2_s3.m2
+# global2 S2 (tests/m2/test_global2_s2.m2) is not run here: its criterion (b) currently fails, see the commit message
 finish

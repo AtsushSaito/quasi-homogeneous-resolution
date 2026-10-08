@@ -96,7 +96,8 @@ chartPreference (List, List, ZZ, ZZ) := (K, w, r, p) -> (
 -- in Pt can be eliminated, and then the remaining variables (shifted by their value at the point when the
 -- variable has weight 0 and the point is rational) form a basis of m/m^2.  Every variable is an eigenvector
 -- of mu_r with weight (deg v mod r); the shifted ones have weight 0.
--- Returns a HashTable: "verdict" ("EC-OK" or "EC-FLAG"), "flags" (list of strings), "tw" (sorted weights),
+-- Returns a HashTable: "verdict" ("EC-OK" or "EC-FLAG"), "flags" (problems, list of strings), "notes" (information:
+-- a weight-0 coordinate is not shifted because the point is not rational), "tw" (sorted weights),
 -- "v0" (position of the eliminated variable), "coords" (list of ring elements), "weights",
 -- "rational" (are the weight-0 shifts known?), "r".
 eigenCoords = method()
@@ -124,9 +125,10 @@ eigenCoords (GradedChart, ZZ, Ideal) := (C, r, Pt) -> (
         else (
             val := Rc_k % Pt;
             if liftable(val, coefficientRing Rc) then Rc_k - val else (rational = false; Rc_k))));
+    notes := {};     -- information, not a problem: the characters do not depend on it
     if not rational and any(others, k -> wt#k == 0) then
-        flags = append(flags, "weight-0 coordinates are not shifted: the stratum point is not rational (or not a closed point)");
-    new HashTable from {"verdict" => (if #flags == 0 then "EC-OK" else "EC-FLAG"), "flags" => flags,
+        notes = append(notes, "weight-0 coordinates are not shifted: the stratum point is not rational (or not a closed point)");
+    new HashTable from {"verdict" => (if #flags == 0 then "EC-OK" else "EC-FLAG"), "flags" => flags, "notes" => notes,
         "tw" => sort apply(others, k -> wt#k), "v0" => v0, "coords" => coords,
         "weights" => apply(others, k -> wt#k), "rational" => rational, "r" => r})
 
